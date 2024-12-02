@@ -1,0 +1,151 @@
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 4; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 6; ]
+class TileSliderMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_8_26_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 9 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_8_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 12; ]
+    public
+    function onSelect(item as MenuItem) {
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_12_47_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 13 8 ]
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        push %tmp.3;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_switchStmtBegin:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 14 12 ]
+        %tmp.4 = dup %tmp.3;
+        %tmp.5 = "theme";
+        %tmp.6 = getv function %tmp.4 :equals;
+        %tmp.7 = invoke %tmp.4 %tmp.6 (%tmp.5);
+        bt %tmp.7 @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_14_12_switchCase;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 22 12 ]
+        %tmp.8 = dup %tmp.3;
+        %tmp.9 = "hint";
+        %tmp.10 = getv function %tmp.8 :equals;
+        %tmp.11 = invoke %tmp.8 %tmp.10 (%tmp.9);
+        bt %tmp.11 @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_22_12_switchCase;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 27 12 ]
+        %tmp.12 = dup %tmp.3;
+        %tmp.13 = "stats";
+        %tmp.14 = getv function %tmp.12 :equals;
+        %tmp.15 = invoke %tmp.12 %tmp.14 (%tmp.13);
+        bt %tmp.15 @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_27_12_switchCase;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_defaultCodeBegin;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_14_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 15 16 ]
+        %tmp.17 = getv ? :theme;
+        %tmp.18 = 1;
+        %tmp.19 = add %tmp.17 %tmp.18;
+        %tmp.21 = getv ? :themes;
+        %tmp.22 = getv function %tmp.21 :size;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        %tmp.24 = mod %tmp.19 %tmp.23;
+        putv self :theme %tmp.24;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 16 16 ]
+        %tmp.25 = getm $.Toybox.Application.Storage;
+        %tmp.26 = getv function %tmp.25 :setValue;
+        %tmp.27 = "theme";
+        %tmp.29 = getv ? :theme;
+        invoke %tmp.25 %tmp.26(%tmp.27, %tmp.29);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 17 16 ]
+        %tmp.30 = lgetv %item;
+        %tmp.31 = getv function %tmp.30 :setSubLabel;
+        %tmp.33 = getv ? :themes;
+        %tmp.35 = getv ? :theme;
+        %tmp.36 = agetv %tmp.33 %tmp.35;
+        invoke %tmp.30 %tmp.31(%tmp.36);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 18 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_16_if_stmt:
+        %tmp.38 = getv ? :game;
+        %tmp.39 = getv function %tmp.38 :get;
+        %tmp.40 = "image";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = 0;
+        %tmp.43 = eq %tmp.41 %tmp.42;
+        bf %tmp.43 @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_44_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 19 20 ]
+        %tmp.44 = self;
+        %tmp.45 = getv function %tmp.44 :loadimage;
+        invoke %tmp.44 %tmp.45();
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_44_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_18_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 21 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_22_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 23 16 ]
+        %tmp.47 = getv ? :hint;
+        %tmp.48 = 1;
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.51 = getv ? :hints;
+        %tmp.52 = getv function %tmp.51 :size;
+        %tmp.53 = invoke %tmp.51 %tmp.52();
+        %tmp.54 = mod %tmp.49 %tmp.53;
+        putv self :hint %tmp.54;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 24 16 ]
+        %tmp.55 = getm $.Toybox.Application.Storage;
+        %tmp.56 = getv function %tmp.55 :setValue;
+        %tmp.57 = "hint";
+        %tmp.59 = getv ? :hint;
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.59);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 25 16 ]
+        %tmp.60 = lgetv %item;
+        %tmp.61 = getv function %tmp.60 :setSubLabel;
+        %tmp.63 = getv ? :hints;
+        %tmp.65 = getv ? :hint;
+        %tmp.66 = agetv %tmp.63 %tmp.65;
+        invoke %tmp.60 %tmp.61(%tmp.66);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 26 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_27_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 28 16 ]
+        %tmp.67 = self;
+        %tmp.68 = getv function %tmp.67 :showstats;
+        invoke %tmp.67 %tmp.68();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 29 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_defaultCodeBegin:
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_13_8_switchStmtEnd:
+        pop;
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_12_47_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 33; ]
+    public
+    function onBack() {
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_33_29_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc" 34 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C_Garmin_Projects_TileSlider_source_TileSliderMenuDelegate_mc_33_29_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

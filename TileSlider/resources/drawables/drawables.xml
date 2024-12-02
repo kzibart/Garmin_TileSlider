@@ -1,0 +1,12 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="flower" filename="flower.png" packingFormat="png"/>
+    <bitmap id="flowers" filename="flowers.png" packingFormat="png"/>
+    <bitmap id="dog" filename="dog.png" packingFormat="png"/>
+    <bitmap id="spider" filename="spider.png" packingFormat="png"/>
+    <bitmap id="stones" filename="stones.png" packingFormat="png"/>
+    <bitmap id="bear" filename="bear.png" packingFormat="png"/>
+    <bitmap id="pumpkins" filename="pumpkins.png" packingFormat="png"/>
+    <bitmap id="autumn" filename="autumn.png" packingFormat="png"/>
+    <bitmap id="coaster" filename="coaster.png" packingFormat="png"/>
+</drawables>

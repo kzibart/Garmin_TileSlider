@@ -1,0 +1,1437 @@
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 3; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 4; ]
+import Toybox.Math;
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 6; ]
+class TileSliderDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_8_26_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 9 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_8_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 12; ]
+    function onMenu() as Boolean {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_12_33_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 13 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getv ? :TileSliderSettings;
+        %tmp.3 = newc %tmp.6 ();
+        %tmp.10 = getv ? :TileSliderMenuDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        %tmp.11 = getm $.Toybox.WatchUi;
+        %tmp.12 = getv %tmp.11 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.12);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 14 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_12_33_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 17; ]
+    function onTap(clickEvent) as Boolean {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 18 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_stop" ]
+        %xy.1 = local;
+        %tmp.1 = lgetv %clickEvent;
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 19 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_stop" ]
+        %state.2 = local;
+        %tmp.5 = getv ? :game;
+        %tmp.6 = getv function %tmp.5 :get;
+        %tmp.7 = "state";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        lputv %state.2 %tmp.8;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 20 8 ]
+        %tmp.10 = lgetv %state.2;
+        push %tmp.10;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_switchStmtBegin:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 21 12 ]
+        %tmp.11 = dup %tmp.10;
+        %tmp.12 = 0;
+        %tmp.13 = getv function %tmp.11 :equals;
+        %tmp.14 = invoke %tmp.11 %tmp.13 (%tmp.12);
+        bt %tmp.14 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_21_12_switchCase;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 85 12 ]
+        %tmp.15 = dup %tmp.10;
+        %tmp.16 = 1;
+        %tmp.17 = getv function %tmp.15 :equals;
+        %tmp.18 = invoke %tmp.15 %tmp.17 (%tmp.16);
+        bt %tmp.18 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_85_12_switchCase;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 125 12 ]
+        %tmp.19 = dup %tmp.10;
+        %tmp.20 = 2;
+        %tmp.21 = getv function %tmp.19 :equals;
+        %tmp.22 = invoke %tmp.19 %tmp.21 (%tmp.20);
+        bt %tmp.22 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_125_12_switchCase;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_defaultCodeBegin;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_21_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 23 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_16_if_stmt:
+        %tmp.23 = self;
+        %tmp.24 = getv function %tmp.23 :inbox;
+        %tmp.26 = getv ? :newXY;
+        %tmp.28 = getv ? :newWH;
+        %tmp.30 = lgetv %xy.1;
+        %tmp.31 = invoke %tmp.23 %tmp.24(%tmp.26, %tmp.28, %tmp.30);
+        bf %tmp.31 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_43_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 24 0 ]
+        %tmp.33 = getv ? :System;
+        %tmp.34 = getv function %tmp.33 :println;
+        %tmp.35 = "tapped start";
+        invoke %tmp.33 %tmp.34(%tmp.35);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 25 20 ]
+        %tmp.38 = lgetv %state.2;
+        %tmp.39 = add %tmp.38 1;
+        lputv %state.2 %tmp.39;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 26 20 ]
+        %tmp.41 = getv ? :game;
+        %tmp.42 = getv function %tmp.41 :put;
+        %tmp.43 = "state";
+        %tmp.45 = lgetv %state.2;
+        invoke %tmp.41 %tmp.42(%tmp.43, %tmp.45);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 27 20 ]
+        %tmp.46 = getm $.Toybox.Application.Storage;
+        %tmp.47 = getv function %tmp.46 :setValue;
+        %tmp.48 = "game";
+        %tmp.50 = getv ? :game;
+        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.50);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 28 20 ]
+        %tmp.51 = self;
+        %tmp.52 = getv function %tmp.51 :shuffle;
+        invoke %tmp.51 %tmp.52();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 29 20 ]
+        %tmp.53 = getm $.Toybox.WatchUi;
+        %tmp.54 = getv function %tmp.53 :requestUpdate;
+        invoke %tmp.53 %tmp.54();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 30 20 ]
+        %tmp.55 = true;
+        ret %tmp.55;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_43_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_23_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 33 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_16_if_stmt:
+        %tmp.56 = self;
+        %tmp.57 = getv function %tmp.56 :inCircle;
+        %tmp.59 = lgetv %xy.1;
+        %tmp.61 = getv ? :previmageXY;
+        %tmp.63 = getv ? :rad;
+        %tmp.64 = invoke %tmp.56 %tmp.57(%tmp.59, %tmp.61, %tmp.63);
+        bf %tmp.64 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_50_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 34 0 ]
+        %tmp.66 = getv ? :System;
+        %tmp.67 = getv function %tmp.66 :println;
+        %tmp.68 = "tapped prev image";
+        invoke %tmp.66 %tmp.67(%tmp.68);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 35 20 ]
+        %tmp.71 = getv ? :image;
+        %tmp.72 = sub %tmp.71 1;
+        putv self :image dup %tmp.72;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 36 20 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_20_if_stmt:
+        %tmp.74 = getv ? :image;
+        %tmp.75 = 0;
+        %tmp.76 = lt %tmp.74 %tmp.75;
+        bf %tmp.76 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_20_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_35_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 36 37 ]
+        %tmp.78 = getv ? :images;
+        %tmp.79 = getv function %tmp.78 :size;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        %tmp.81 = 1;
+        %tmp.82 = sub %tmp.80 %tmp.81;
+        putv self :image %tmp.82;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_35_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_36_20_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 37 20 ]
+        %tmp.84 = getv ? :game;
+        %tmp.85 = getv function %tmp.84 :put;
+        %tmp.86 = "image";
+        %tmp.88 = getv ? :image;
+        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.88);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 38 20 ]
+        %tmp.89 = getm $.Toybox.Application.Storage;
+        %tmp.90 = getv function %tmp.89 :setValue;
+        %tmp.91 = "game";
+        %tmp.93 = getv ? :game;
+        invoke %tmp.89 %tmp.90(%tmp.91, %tmp.93);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 39 20 ]
+        %tmp.94 = self;
+        %tmp.95 = getv function %tmp.94 :loadimage;
+        invoke %tmp.94 %tmp.95();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 40 20 ]
+        %tmp.96 = getm $.Toybox.WatchUi;
+        %tmp.97 = getv function %tmp.96 :requestUpdate;
+        invoke %tmp.96 %tmp.97();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 41 20 ]
+        %tmp.98 = true;
+        ret %tmp.98;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_50_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_33_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 43 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_16_if_stmt:
+        %tmp.99 = self;
+        %tmp.100 = getv function %tmp.99 :inCircle;
+        %tmp.102 = lgetv %xy.1;
+        %tmp.104 = getv ? :nextimageXY;
+        %tmp.106 = getv ? :rad;
+        %tmp.107 = invoke %tmp.99 %tmp.100(%tmp.102, %tmp.104, %tmp.106);
+        bf %tmp.107 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_50_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 44 0 ]
+        %tmp.109 = getv ? :System;
+        %tmp.110 = getv function %tmp.109 :println;
+        %tmp.111 = "tapped next image";
+        invoke %tmp.109 %tmp.110(%tmp.111);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 45 20 ]
+        %tmp.114 = getv ? :image;
+        %tmp.115 = add %tmp.114 1;
+        putv self :image dup %tmp.115;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 46 20 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_20_if_stmt:
+        %tmp.117 = getv ? :image;
+        %tmp.119 = getv ? :images;
+        %tmp.120 = getv function %tmp.119 :size;
+        %tmp.121 = invoke %tmp.119 %tmp.120();
+        %tmp.122 = 1;
+        %tmp.123 = sub %tmp.121 %tmp.122;
+        %tmp.124 = gt %tmp.117 %tmp.123;
+        bf %tmp.124 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_20_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_49_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 46 51 ]
+        %tmp.125 = 0;
+        putv self :image %tmp.125;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_49_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_46_20_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 47 20 ]
+        %tmp.127 = getv ? :game;
+        %tmp.128 = getv function %tmp.127 :put;
+        %tmp.129 = "image";
+        %tmp.131 = getv ? :image;
+        invoke %tmp.127 %tmp.128(%tmp.129, %tmp.131);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 48 20 ]
+        %tmp.132 = getm $.Toybox.Application.Storage;
+        %tmp.133 = getv function %tmp.132 :setValue;
+        %tmp.134 = "game";
+        %tmp.136 = getv ? :game;
+        invoke %tmp.132 %tmp.133(%tmp.134, %tmp.136);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 49 20 ]
+        %tmp.137 = self;
+        %tmp.138 = getv function %tmp.137 :loadimage;
+        invoke %tmp.137 %tmp.138();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 50 20 ]
+        %tmp.139 = getm $.Toybox.WatchUi;
+        %tmp.140 = getv function %tmp.139 :requestUpdate;
+        invoke %tmp.139 %tmp.140();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 51 20 ]
+        %tmp.141 = true;
+        ret %tmp.141;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_50_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_43_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 54 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_16_if_stmt:
+        %tmp.142 = self;
+        %tmp.143 = getv function %tmp.142 :inCircle;
+        %tmp.145 = lgetv %xy.1;
+        %tmp.147 = getv ? :prevdimXY;
+        %tmp.149 = getv ? :rad;
+        %tmp.150 = invoke %tmp.142 %tmp.143(%tmp.145, %tmp.147, %tmp.149);
+        bf %tmp.150 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_48_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 55 0 ]
+        %tmp.152 = getv ? :System;
+        %tmp.153 = getv function %tmp.152 :println;
+        %tmp.154 = "tapped prev dim";
+        invoke %tmp.152 %tmp.153(%tmp.154);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 56 20 ]
+        %tmp.157 = getv ? :rows;
+        %tmp.158 = sub %tmp.157 1;
+        putv self :rows dup %tmp.158;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 57 20 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_20_if_stmt:
+        %tmp.160 = getv ? :rows;
+        %tmp.161 = 3;
+        %tmp.162 = lt %tmp.160 %tmp.161;
+        bf %tmp.162 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_20_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_34_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 57 36 ]
+        %tmp.163 = 6;
+        putv self :rows %tmp.163;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_34_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_57_20_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 58 20 ]
+        %tmp.165 = getv ? :rows;
+        putv self :cols %tmp.165;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 59 20 ]
+        %tmp.167 = getv ? :game;
+        %tmp.168 = getv function %tmp.167 :put;
+        %tmp.169 = "rows";
+        %tmp.171 = getv ? :rows;
+        invoke %tmp.167 %tmp.168(%tmp.169, %tmp.171);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 60 20 ]
+        %tmp.173 = getv ? :game;
+        %tmp.174 = getv function %tmp.173 :put;
+        %tmp.175 = "cols";
+        %tmp.177 = getv ? :cols;
+        invoke %tmp.173 %tmp.174(%tmp.175, %tmp.177);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 61 20 ]
+        %tmp.178 = self;
+        %tmp.179 = getv function %tmp.178 :inittiles;
+        invoke %tmp.178 %tmp.179();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 62 20 ]
+        %tmp.181 = getv ? :game;
+        %tmp.182 = getv function %tmp.181 :put;
+        %tmp.183 = "tiles";
+        %tmp.185 = getv ? :tiles;
+        invoke %tmp.181 %tmp.182(%tmp.183, %tmp.185);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 63 20 ]
+        %tmp.187 = getv ? :game;
+        %tmp.188 = getv function %tmp.187 :put;
+        %tmp.189 = "solved";
+        %tmp.191 = getv ? :solved;
+        invoke %tmp.187 %tmp.188(%tmp.189, %tmp.191);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 64 20 ]
+        %tmp.192 = getm $.Toybox.Application.Storage;
+        %tmp.193 = getv function %tmp.192 :setValue;
+        %tmp.194 = "game";
+        %tmp.196 = getv ? :game;
+        invoke %tmp.192 %tmp.193(%tmp.194, %tmp.196);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 65 20 ]
+        %tmp.197 = self;
+        %tmp.198 = getv function %tmp.197 :loadimage;
+        invoke %tmp.197 %tmp.198();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 66 20 ]
+        %tmp.199 = getm $.Toybox.WatchUi;
+        %tmp.200 = getv function %tmp.199 :requestUpdate;
+        invoke %tmp.199 %tmp.200();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 67 20 ]
+        %tmp.201 = true;
+        ret %tmp.201;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_48_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_54_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 69 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_16_if_stmt:
+        %tmp.202 = self;
+        %tmp.203 = getv function %tmp.202 :inCircle;
+        %tmp.205 = lgetv %xy.1;
+        %tmp.207 = getv ? :nextdimXY;
+        %tmp.209 = getv ? :rad;
+        %tmp.210 = invoke %tmp.202 %tmp.203(%tmp.205, %tmp.207, %tmp.209);
+        bf %tmp.210 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_48_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 70 0 ]
+        %tmp.212 = getv ? :System;
+        %tmp.213 = getv function %tmp.212 :println;
+        %tmp.214 = "tapped next dim";
+        invoke %tmp.212 %tmp.213(%tmp.214);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 71 20 ]
+        %tmp.217 = getv ? :rows;
+        %tmp.218 = add %tmp.217 1;
+        putv self :rows dup %tmp.218;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 72 20 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_20_if_stmt:
+        %tmp.220 = getv ? :rows;
+        %tmp.221 = 6;
+        %tmp.222 = gt %tmp.220 %tmp.221;
+        bf %tmp.222 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_20_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_34_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 72 36 ]
+        %tmp.223 = 3;
+        putv self :rows %tmp.223;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_34_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_20_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_72_20_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 73 20 ]
+        %tmp.225 = getv ? :rows;
+        putv self :cols %tmp.225;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 74 20 ]
+        %tmp.227 = getv ? :game;
+        %tmp.228 = getv function %tmp.227 :put;
+        %tmp.229 = "rows";
+        %tmp.231 = getv ? :rows;
+        invoke %tmp.227 %tmp.228(%tmp.229, %tmp.231);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 75 20 ]
+        %tmp.233 = getv ? :game;
+        %tmp.234 = getv function %tmp.233 :put;
+        %tmp.235 = "cols";
+        %tmp.237 = getv ? :cols;
+        invoke %tmp.233 %tmp.234(%tmp.235, %tmp.237);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 76 20 ]
+        %tmp.238 = self;
+        %tmp.239 = getv function %tmp.238 :inittiles;
+        invoke %tmp.238 %tmp.239();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 77 20 ]
+        %tmp.241 = getv ? :game;
+        %tmp.242 = getv function %tmp.241 :put;
+        %tmp.243 = "tiles";
+        %tmp.245 = getv ? :tiles;
+        invoke %tmp.241 %tmp.242(%tmp.243, %tmp.245);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 78 20 ]
+        %tmp.247 = getv ? :game;
+        %tmp.248 = getv function %tmp.247 :put;
+        %tmp.249 = "solved";
+        %tmp.251 = getv ? :solved;
+        invoke %tmp.247 %tmp.248(%tmp.249, %tmp.251);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 79 20 ]
+        %tmp.252 = getm $.Toybox.Application.Storage;
+        %tmp.253 = getv function %tmp.252 :setValue;
+        %tmp.254 = "game";
+        %tmp.256 = getv ? :game;
+        invoke %tmp.252 %tmp.253(%tmp.254, %tmp.256);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 80 20 ]
+        %tmp.257 = self;
+        %tmp.258 = getv function %tmp.257 :loadimage;
+        invoke %tmp.257 %tmp.258();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 81 20 ]
+        %tmp.259 = getm $.Toybox.WatchUi;
+        %tmp.260 = getv function %tmp.259 :requestUpdate;
+        invoke %tmp.259 %tmp.260();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 82 20 ]
+        %tmp.261 = true;
+        ret %tmp.261;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_48_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_69_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 84 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_85_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 87 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_16_if_stmt:
+        %tmp.262 = self;
+        %tmp.263 = getv function %tmp.262 :inbox;
+        %tmp.265 = getv ? :newXY;
+        %tmp.267 = getv ? :newWH;
+        %tmp.269 = lgetv %xy.1;
+        %tmp.270 = invoke %tmp.262 %tmp.263(%tmp.265, %tmp.267, %tmp.269);
+        bf %tmp.270 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_43_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 88 0 ]
+        %tmp.272 = getv ? :System;
+        %tmp.273 = getv function %tmp.272 :println;
+        %tmp.274 = "tapped new";
+        invoke %tmp.272 %tmp.273(%tmp.274);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 89 20 ]
+        %tmp.275 = self;
+        %tmp.276 = getv function %tmp.275 :newgame;
+        invoke %tmp.275 %tmp.276();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 90 20 ]
+        %tmp.277 = getm $.Toybox.WatchUi;
+        %tmp.278 = getv function %tmp.277 :requestUpdate;
+        invoke %tmp.277 %tmp.278();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 91 20 ]
+        %tmp.279 = true;
+        ret %tmp.279;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_43_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_87_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 94 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_16_if_stmt:
+        %tmp.281 = getv ? :showing;
+        %tmp.282 = not %tmp.281;
+        bf %tmp.282 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_30_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 95 20 ]
+        %tmp.284 = getv ? :square;
+        %tmp.286 = getv ? :rows;
+        %tmp.287 = div %tmp.284 %tmp.286;
+        %tmp.288 = getv function %tmp.287 :toNumber;
+        %tmp.289 = invoke %tmp.287 %tmp.288();
+        putv self :tmp %tmp.289;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 96 20 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_end" ]
+        %r.3 = local;
+        %tmp.290 = 0;
+        lputv %r.3 %tmp.290;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_test:
+        %tmp.292 = lgetv %r.3;
+        %tmp.294 = getv ? :rows;
+        %tmp.295 = lt %tmp.292 %tmp.294;
+        bf %tmp.295 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_45_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 97 24 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_end" ]
+        %c.4 = local;
+        %tmp.296 = 0;
+        lputv %c.4 %tmp.296;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_test:
+        %tmp.298 = lgetv %c.4;
+        %tmp.300 = getv ? :cols;
+        %tmp.301 = lt %tmp.298 %tmp.300;
+        bf %tmp.301 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_49_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 98 28 ]
+        %tmp.303 = lgetv %r.3;
+        %tmp.305 = getv ? :cols;
+        %tmp.306 = mul %tmp.303 %tmp.305;
+        %tmp.308 = lgetv %c.4;
+        %tmp.309 = add %tmp.306 %tmp.308;
+        putv self :tmp3 %tmp.309;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 99 28 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_28_if_stmt:
+        %tmp.310 = self;
+        %tmp.311 = getv function %tmp.310 :inbox;
+        %tmp.313 = getv ? :tileXY;
+        %tmp.315 = getv ? :tmp3;
+        %tmp.316 = agetv %tmp.313 %tmp.315;
+        %tmp.317 = newa 2;
+        %tmp.319 = getv ? :tmp;
+        %tmp.320 = dup %tmp.317;
+        %tmp.321 = aputv %tmp.320 0 %tmp.319;
+        %tmp.323 = getv ? :tmp;
+        %tmp.324 = dup %tmp.321;
+        %tmp.325 = aputv %tmp.324 1 %tmp.323;
+        %tmp.327 = lgetv %xy.1;
+        %tmp.328 = invoke %tmp.310 %tmp.311(%tmp.316, %tmp.325, %tmp.327);
+        bf %tmp.328 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_28_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_28_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_66_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 100 0 ]
+        %tmp.330 = getv ? :System;
+        %tmp.331 = getv function %tmp.330 :println;
+        %tmp.332 = "tapped tile ";
+        %tmp.334 = getv ? :tmp3;
+        %tmp.335 = add %tmp.332 %tmp.334;
+        invoke %tmp.330 %tmp.331(%tmp.335);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 101 32 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_32_if_stmt:
+        %tmp.336 = self;
+        %tmp.337 = getv function %tmp.336 :proctile;
+        %tmp.339 = lgetv %r.3;
+        %tmp.341 = lgetv %c.4;
+        %tmp.342 = invoke %tmp.336 %tmp.337(%tmp.339, %tmp.341);
+        bf %tmp.342 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_32_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_32_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_51_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 102 36 ]
+        %tmp.344 = getv ? :game;
+        %tmp.345 = getv function %tmp.344 :put;
+        %tmp.346 = "tiles";
+        %tmp.348 = getv ? :tiles;
+        invoke %tmp.344 %tmp.345(%tmp.346, %tmp.348);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 103 36 ]
+        %tmp.350 = getv ? :game;
+        %tmp.351 = getv function %tmp.350 :put;
+        %tmp.352 = "moves";
+        %tmp.354 = getv ? :moves;
+        invoke %tmp.350 %tmp.351(%tmp.352, %tmp.354);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 104 36 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_36_if_stmt:
+        %tmp.356 = getv ? :tiles;
+        %tmp.357 = getv function %tmp.356 :toString;
+        %tmp.358 = invoke %tmp.356 %tmp.357();
+        %tmp.359 = getv function %tmp.358 :equals;
+        %tmp.361 = getv ? :solved;
+        %tmp.362 = getv function %tmp.361 :toString;
+        %tmp.363 = invoke %tmp.361 %tmp.362();
+        %tmp.364 = invoke %tmp.358 %tmp.359(%tmp.363);
+        bf %tmp.364 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_36_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_36_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_84_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 105 40 ]
+        %tmp.365 = 2;
+        lputv %state.2 %tmp.365;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 106 40 ]
+        %tmp.366 = self;
+        %tmp.367 = getv function %tmp.366 :savestats;
+        invoke %tmp.366 %tmp.367();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 107 40 ]
+        %tmp.369 = getv ? :game;
+        %tmp.370 = getv function %tmp.369 :put;
+        %tmp.371 = "state";
+        %tmp.373 = lgetv %state.2;
+        invoke %tmp.369 %tmp.370(%tmp.371, %tmp.373);
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_84_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_36_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_104_36_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 109 36 ]
+        %tmp.374 = getm $.Toybox.Application.Storage;
+        %tmp.375 = getv function %tmp.374 :setValue;
+        %tmp.376 = "game";
+        %tmp.378 = getv ? :game;
+        invoke %tmp.374 %tmp.375(%tmp.376, %tmp.378);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 110 36 ]
+        %tmp.379 = getm $.Toybox.WatchUi;
+        %tmp.380 = getv function %tmp.379 :requestUpdate;
+        invoke %tmp.379 %tmp.380();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 111 36 ]
+        %tmp.381 = true;
+        ret %tmp.381;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_51_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_32_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_101_32_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_66_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_28_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_99_28_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_49_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 97 ]
+        %tmp.384 = lgetv %c.4;
+        %tmp.385 = add %tmp.384 1;
+        lputv %c.4 %tmp.385;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_97_24_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_45_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 96 ]
+        %tmp.388 = lgetv %r.3;
+        %tmp.389 = add %tmp.388 1;
+        lputv %r.3 %tmp.389;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_96_20_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_30_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_94_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 118 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_16_if_stmt:
+        %tmp.390 = self;
+        %tmp.391 = getv function %tmp.390 :inbox;
+        %tmp.393 = getv ? :showXY;
+        %tmp.395 = getv ? :showWH;
+        %tmp.397 = lgetv %xy.1;
+        %tmp.398 = invoke %tmp.390 %tmp.391(%tmp.393, %tmp.395, %tmp.397);
+        bf %tmp.398 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_45_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 119 0 ]
+        %tmp.400 = getv ? :System;
+        %tmp.401 = getv function %tmp.400 :println;
+        %tmp.402 = "tapped show/back";
+        invoke %tmp.400 %tmp.401(%tmp.402);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 120 20 ]
+        %tmp.404 = getv ? :showing;
+        %tmp.405 = not %tmp.404;
+        putv self :showing %tmp.405;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 121 20 ]
+        %tmp.406 = getm $.Toybox.WatchUi;
+        %tmp.407 = getv function %tmp.406 :requestUpdate;
+        invoke %tmp.406 %tmp.407();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 122 20 ]
+        %tmp.408 = true;
+        ret %tmp.408;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_45_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_118_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 124 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_125_12_switchCase:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 126 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_16_if_stmt:
+        %tmp.409 = self;
+        %tmp.410 = getv function %tmp.409 :inbox;
+        %tmp.412 = getv ? :newXY;
+        %tmp.414 = getv ? :newWH;
+        %tmp.416 = lgetv %xy.1;
+        %tmp.417 = invoke %tmp.409 %tmp.410(%tmp.412, %tmp.414, %tmp.416);
+        bf %tmp.417 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_43_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 127 0 ]
+        %tmp.419 = getv ? :System;
+        %tmp.420 = getv function %tmp.419 :println;
+        %tmp.421 = "tapped new";
+        invoke %tmp.419 %tmp.420(%tmp.421);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 128 20 ]
+        %tmp.422 = self;
+        %tmp.423 = getv function %tmp.422 :newgame;
+        invoke %tmp.422 %tmp.423();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 129 20 ]
+        %tmp.424 = getm $.Toybox.WatchUi;
+        %tmp.425 = getv function %tmp.424 :requestUpdate;
+        invoke %tmp.424 %tmp.425();
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 130 20 ]
+        %tmp.426 = true;
+        ret %tmp.426;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_43_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_126_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 132 16 ]
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_switchStmtEnd;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_defaultCodeBegin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_20_8_switchStmtEnd:
+        pop;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 134 8 ]
+        %tmp.427 = false;
+        ret %tmp.427;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_17_42_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 137; ]
+    public
+    function inCircle(point, circle, rad) {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 138 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_stop" ]
+        %x.1 = local;
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        lputv %x.1 %tmp.4;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 139 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_stop" ]
+        %y.2 = local;
+        %tmp.6 = lgetv %point;
+        %tmp.7 = 1;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        lputv %y.2 %tmp.8;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 140 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_stop" ]
+        %cx.3 = local;
+        %tmp.10 = lgetv %circle;
+        %tmp.11 = 0;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        lputv %cx.3 %tmp.12;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 141 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_stop" ]
+        %cy.4 = local;
+        %tmp.14 = lgetv %circle;
+        %tmp.15 = 1;
+        %tmp.16 = agetv %tmp.14 %tmp.15;
+        lputv %cy.4 %tmp.16;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 142 8 ]
+        %tmp.18 = lgetv %x.1;
+        %tmp.20 = lgetv %cx.3;
+        %tmp.21 = sub %tmp.18 %tmp.20;
+        %tmp.23 = lgetv %x.1;
+        %tmp.25 = lgetv %cx.3;
+        %tmp.26 = sub %tmp.23 %tmp.25;
+        %tmp.27 = mul %tmp.21 %tmp.26;
+        %tmp.29 = lgetv %y.2;
+        %tmp.31 = lgetv %cy.4;
+        %tmp.32 = sub %tmp.29 %tmp.31;
+        %tmp.34 = lgetv %y.2;
+        %tmp.36 = lgetv %cy.4;
+        %tmp.37 = sub %tmp.34 %tmp.36;
+        %tmp.38 = mul %tmp.32 %tmp.37;
+        %tmp.39 = add %tmp.27 %tmp.38;
+        %tmp.41 = lgetv %rad;
+        %tmp.43 = lgetv %rad;
+        %tmp.44 = mul %tmp.41 %tmp.43;
+        %tmp.45 = lte %tmp.39 %tmp.44;
+        ret %tmp.45;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_137_49_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 149; ]
+    public
+    function inbox(boxxy, boxwh, point) as Boolean {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_149_56_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 150 8 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_8_if_stmt:
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %boxxy;
+        %tmp.7 = 0;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        %tmp.9 = lt %tmp.4 %tmp.8;
+        bf %tmp.9 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_8_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_31_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 150 32 ]
+        %tmp.10 = false;
+        ret %tmp.10;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_31_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_150_8_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 151 8 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_8_if_stmt:
+        %tmp.12 = lgetv %point;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.16 = lgetv %boxxy;
+        %tmp.17 = 0;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.20 = lgetv %boxwh;
+        %tmp.21 = 0;
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.23 = add %tmp.18 %tmp.22;
+        %tmp.24 = gt %tmp.14 %tmp.23;
+        bf %tmp.24 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_8_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_40_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 151 41 ]
+        %tmp.25 = false;
+        ret %tmp.25;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_40_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_151_8_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 152 8 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_8_if_stmt:
+        %tmp.27 = lgetv %point;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.31 = lgetv %boxxy;
+        %tmp.32 = 1;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = lt %tmp.29 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_8_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_31_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 152 32 ]
+        %tmp.35 = false;
+        ret %tmp.35;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_31_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_152_8_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 153 8 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_8_if_stmt:
+        %tmp.37 = lgetv %point;
+        %tmp.38 = 1;
+        %tmp.39 = agetv %tmp.37 %tmp.38;
+        %tmp.41 = lgetv %boxxy;
+        %tmp.42 = 1;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.45 = lgetv %boxwh;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = add %tmp.43 %tmp.47;
+        %tmp.49 = gt %tmp.39 %tmp.48;
+        bf %tmp.49 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_8_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_40_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 153 41 ]
+        %tmp.50 = false;
+        ret %tmp.50;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_40_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_153_8_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 154 8 ]
+        %tmp.51 = true;
+        ret %tmp.51;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_149_56_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 160; ]
+    function proctile(inr, inc) as Boolean {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_160_42_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 162 8 ]
+        %tmp.2 = lgetv %inr;
+        %tmp.4 = getv ? :cols;
+        %tmp.5 = mul %tmp.2 %tmp.4;
+        %tmp.7 = lgetv %inc;
+        %tmp.8 = add %tmp.5 %tmp.7;
+        putv self :tmp %tmp.8;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 163 8 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_8_if_stmt:
+        %tmp.10 = getv ? :tiles;
+        %tmp.12 = lgetv %inr;
+        %tmp.13 = agetv %tmp.10 %tmp.12;
+        %tmp.15 = lgetv %inc;
+        %tmp.16 = agetv %tmp.13 %tmp.15;
+        %tmp.17 = 0;
+        %tmp.18 = eq %tmp.16 %tmp.17;
+        bf %tmp.18 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_8_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_34_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 163 36 ]
+        %tmp.19 = false;
+        ret %tmp.19;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_34_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_8_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_163_8_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 164 8 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_end" ]
+        %r.1 = local;
+        %tmp.20 = 0;
+        lputv %r.1 %tmp.20;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_test:
+        %tmp.22 = lgetv %r.1;
+        %tmp.24 = getv ? :rows;
+        %tmp.25 = lt %tmp.22 %tmp.24;
+        bf %tmp.25 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_33_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 165 12 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_12_if_stmt:
+        %tmp.27 = getv ? :tiles;
+        %tmp.29 = lgetv %r.1;
+        %tmp.30 = agetv %tmp.27 %tmp.29;
+        %tmp.32 = lgetv %inc;
+        %tmp.33 = agetv %tmp.30 %tmp.32;
+        %tmp.34 = 0;
+        %tmp.35 = eq %tmp.33 %tmp.34;
+        bf %tmp.35 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_12_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_12_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_36_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 166 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_stmt:
+        %tmp.37 = lgetv %r.1;
+        %tmp.39 = lgetv %inr;
+        %tmp.40 = lt %tmp.37 %tmp.39;
+        bf %tmp.40 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_27_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 167 20 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_end" ]
+        %i.2 = local;
+        %tmp.42 = lgetv %r.1;
+        lputv %i.2 %tmp.42;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_test:
+        %tmp.44 = lgetv %i.2;
+        %tmp.46 = lgetv %inr;
+        %tmp.47 = lt %tmp.44 %tmp.46;
+        bf %tmp.47 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_44_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 168 24 ]
+        %tmp.48 = getv self :tiles;
+        %tmp.50 = lgetv %i.2;
+        %tmp.51 = agetv %tmp.48 %tmp.50;
+        %tmp.53 = getv ? :tiles;
+        %tmp.55 = lgetv %i.2;
+        %tmp.56 = 1;
+        %tmp.57 = add %tmp.55 %tmp.56;
+        %tmp.58 = agetv %tmp.53 %tmp.57;
+        %tmp.60 = lgetv %inc;
+        %tmp.61 = agetv %tmp.58 %tmp.60;
+        %tmp.63 = lgetv %inc;
+        aputv %tmp.51 %tmp.63 %tmp.61;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 169 24 ]
+        %tmp.66 = getv ? :moves;
+        %tmp.67 = add %tmp.66 1;
+        putv self :moves dup %tmp.67;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_44_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 167 ]
+        %tmp.70 = lgetv %i.2;
+        %tmp.71 = add %tmp.70 1;
+        lputv %i.2 %tmp.71;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_167_20_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_27_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_false:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_171_23_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 172 20 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_end" ]
+        %i.3 = local;
+        %tmp.73 = lgetv %r.1;
+        lputv %i.3 %tmp.73;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_test:
+        %tmp.75 = lgetv %i.3;
+        %tmp.77 = lgetv %inr;
+        %tmp.78 = gt %tmp.75 %tmp.77;
+        bf %tmp.78 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_44_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 173 24 ]
+        %tmp.79 = getv self :tiles;
+        %tmp.81 = lgetv %i.3;
+        %tmp.82 = agetv %tmp.79 %tmp.81;
+        %tmp.84 = getv ? :tiles;
+        %tmp.86 = lgetv %i.3;
+        %tmp.87 = 1;
+        %tmp.88 = sub %tmp.86 %tmp.87;
+        %tmp.89 = agetv %tmp.84 %tmp.88;
+        %tmp.91 = lgetv %inc;
+        %tmp.92 = agetv %tmp.89 %tmp.91;
+        %tmp.94 = lgetv %inc;
+        aputv %tmp.82 %tmp.94 %tmp.92;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 174 24 ]
+        %tmp.97 = getv ? :moves;
+        %tmp.98 = add %tmp.97 1;
+        putv self :moves dup %tmp.98;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_44_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 172 ]
+        %tmp.101 = lgetv %i.3;
+        %tmp.102 = sub %tmp.101 1;
+        lputv %i.3 %tmp.102;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_172_20_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_171_23_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_166_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 177 16 ]
+        %tmp.103 = getv self :tiles;
+        %tmp.105 = lgetv %inr;
+        %tmp.106 = agetv %tmp.103 %tmp.105;
+        %tmp.107 = 0;
+        %tmp.109 = lgetv %inc;
+        aputv %tmp.106 %tmp.109 %tmp.107;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 178 16 ]
+        %tmp.110 = true;
+        ret %tmp.110;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_36_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_12_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_165_12_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_33_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 164 ]
+        %tmp.113 = lgetv %r.1;
+        %tmp.114 = add %tmp.113 1;
+        lputv %r.1 %tmp.114;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_164_8_for_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 181 8 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_end" ]
+        %c.4 = local;
+        %tmp.115 = 0;
+        lputv %c.4 %tmp.115;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_test:
+        %tmp.117 = lgetv %c.4;
+        %tmp.119 = getv ? :cols;
+        %tmp.120 = lt %tmp.117 %tmp.119;
+        bf %tmp.120 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_33_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 182 12 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_12_if_stmt:
+        %tmp.122 = getv ? :tiles;
+        %tmp.124 = lgetv %inr;
+        %tmp.125 = agetv %tmp.122 %tmp.124;
+        %tmp.127 = lgetv %c.4;
+        %tmp.128 = agetv %tmp.125 %tmp.127;
+        %tmp.129 = 0;
+        %tmp.130 = eq %tmp.128 %tmp.129;
+        bf %tmp.130 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_12_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_12_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_36_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 183 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_stmt:
+        %tmp.132 = lgetv %c.4;
+        %tmp.134 = lgetv %inc;
+        %tmp.135 = lt %tmp.132 %tmp.134;
+        bf %tmp.135 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_27_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 184 20 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_end" ]
+        %i.5 = local;
+        %tmp.137 = lgetv %c.4;
+        lputv %i.5 %tmp.137;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_test:
+        %tmp.139 = lgetv %i.5;
+        %tmp.141 = lgetv %inc;
+        %tmp.142 = lt %tmp.139 %tmp.141;
+        bf %tmp.142 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_44_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 185 24 ]
+        %tmp.143 = getv self :tiles;
+        %tmp.145 = lgetv %inr;
+        %tmp.146 = agetv %tmp.143 %tmp.145;
+        %tmp.148 = getv ? :tiles;
+        %tmp.150 = lgetv %inr;
+        %tmp.151 = agetv %tmp.148 %tmp.150;
+        %tmp.153 = lgetv %i.5;
+        %tmp.154 = 1;
+        %tmp.155 = add %tmp.153 %tmp.154;
+        %tmp.156 = agetv %tmp.151 %tmp.155;
+        %tmp.158 = lgetv %i.5;
+        aputv %tmp.146 %tmp.158 %tmp.156;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 186 24 ]
+        %tmp.161 = getv ? :moves;
+        %tmp.162 = add %tmp.161 1;
+        putv self :moves dup %tmp.162;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_44_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 184 ]
+        %tmp.165 = lgetv %i.5;
+        %tmp.166 = add %tmp.165 1;
+        lputv %i.5 %tmp.166;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_184_20_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_27_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_false:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_188_23_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 189 20 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_end" ]
+        %i.6 = local;
+        %tmp.168 = lgetv %c.4;
+        lputv %i.6 %tmp.168;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_test:
+        %tmp.170 = lgetv %i.6;
+        %tmp.172 = lgetv %inc;
+        %tmp.173 = gt %tmp.170 %tmp.172;
+        bf %tmp.173 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_44_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 190 24 ]
+        %tmp.174 = getv self :tiles;
+        %tmp.176 = lgetv %inr;
+        %tmp.177 = agetv %tmp.174 %tmp.176;
+        %tmp.179 = getv ? :tiles;
+        %tmp.181 = lgetv %inr;
+        %tmp.182 = agetv %tmp.179 %tmp.181;
+        %tmp.184 = lgetv %i.6;
+        %tmp.185 = 1;
+        %tmp.186 = sub %tmp.184 %tmp.185;
+        %tmp.187 = agetv %tmp.182 %tmp.186;
+        %tmp.189 = lgetv %i.6;
+        aputv %tmp.177 %tmp.189 %tmp.187;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 191 24 ]
+        %tmp.192 = getv ? :moves;
+        %tmp.193 = add %tmp.192 1;
+        putv self :moves dup %tmp.193;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_44_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 189 ]
+        %tmp.196 = lgetv %i.6;
+        %tmp.197 = sub %tmp.196 1;
+        lputv %i.6 %tmp.197;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_189_20_for_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_188_23_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_183_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 194 16 ]
+        %tmp.198 = getv self :tiles;
+        %tmp.200 = lgetv %inr;
+        %tmp.201 = agetv %tmp.198 %tmp.200;
+        %tmp.202 = 0;
+        %tmp.204 = lgetv %inc;
+        aputv %tmp.201 %tmp.204 %tmp.202;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 195 16 ]
+        %tmp.205 = true;
+        ret %tmp.205;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_36_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_12_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_182_12_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_33_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 181 ]
+        %tmp.208 = lgetv %c.4;
+        %tmp.209 = add %tmp.208 1;
+        lputv %c.4 %tmp.209;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_181_8_for_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 198 8 ]
+        %tmp.210 = false;
+        ret %tmp.210;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_160_42_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 201; ]
+    function shuffle() {
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 202 8 ]
+        %tmp.2 = getv ? :game;
+        %tmp.3 = getv function %tmp.2 :get;
+        %tmp.4 = "rows";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        putv self :rows %tmp.5;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 203 8 ]
+        %tmp.7 = getv ? :game;
+        %tmp.8 = getv function %tmp.7 :get;
+        %tmp.9 = "cols";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        putv self :cols %tmp.10;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 204 8 ]
+        %tmp.12 = getv ? :game;
+        %tmp.13 = getv function %tmp.12 :get;
+        %tmp.14 = "tiles";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        putv self :tiles %tmp.15;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 205 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop" ]
+        %found.1 = local;
+        %tmp.16 = false;
+        lputv %found.1 %tmp.16;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 206 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop" ]
+        %r.2 = local;
+        %tmp.18 = getv ? :rows;
+        %tmp.19 = 1;
+        %tmp.20 = sub %tmp.18 %tmp.19;
+        lputv %r.2 %tmp.20;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 207 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop" ]
+        %c.3 = local;
+        %tmp.22 = getv ? :cols;
+        %tmp.23 = 1;
+        %tmp.24 = sub %tmp.22 %tmp.23;
+        lputv %c.3 %tmp.24;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 208 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop" ]
+        %nr.4 = local;
+        %tmp.25 = 0;
+        lputv %nr.4 %tmp.25;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 209 8 ]
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_start" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop" ]
+        %nc.5 = local;
+        %tmp.26 = 0;
+        lputv %nc.5 %tmp.26;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 210 8 ]
+        for @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_test @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_incr @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_init:
+        [ "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_begin" "C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_end" ]
+        %i.6 = local;
+        %tmp.27 = 0;
+        lputv %i.6 %tmp.27;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_test:
+        %tmp.29 = lgetv %i.6;
+        %tmp.30 = 1000;
+        %tmp.31 = lt %tmp.29 %tmp.30;
+        bf %tmp.31 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_begin:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_33_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 211 12 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_stmt:
+        %tmp.32 = getm $.Toybox.Math;
+        %tmp.33 = getv function %tmp.32 :rand;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = 2;
+        %tmp.36 = mod %tmp.34 %tmp.35;
+        %tmp.37 = 1;
+        %tmp.38 = eq %tmp.36 %tmp.37;
+        bf %tmp.38 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_40_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 212 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_stmt:
+        %tmp.40 = lgetv %r.2;
+        %tmp.41 = 0;
+        %tmp.42 = eq %tmp.40 %tmp.41;
+        bf %tmp.42 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_28_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 212 30 ]
+        %tmp.44 = lgetv %r.2;
+        %tmp.45 = 1;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        lputv %nr.4 %tmp.46;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_28_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_false:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 213 21 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_stmt:
+        %tmp.48 = lgetv %r.2;
+        %tmp.50 = getv ? :rows;
+        %tmp.51 = 1;
+        %tmp.52 = sub %tmp.50 %tmp.51;
+        %tmp.53 = eq %tmp.48 %tmp.52;
+        bf %tmp.53 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_38_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 213 40 ]
+        %tmp.55 = lgetv %r.2;
+        %tmp.56 = 1;
+        %tmp.57 = sub %tmp.55 %tmp.56;
+        lputv %nr.4 %tmp.57;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_38_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_false:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 214 21 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_stmt:
+        %tmp.58 = getm $.Toybox.Math;
+        %tmp.59 = getv function %tmp.58 :rand;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = 2;
+        %tmp.62 = mod %tmp.60 %tmp.61;
+        %tmp.63 = 1;
+        %tmp.64 = eq %tmp.62 %tmp.63;
+        bf %tmp.64 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_47_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 214 49 ]
+        %tmp.66 = lgetv %r.2;
+        %tmp.67 = 1;
+        %tmp.68 = add %tmp.66 %tmp.67;
+        lputv %nr.4 %tmp.68;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_47_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_false:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_215_21_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 215 23 ]
+        %tmp.70 = lgetv %r.2;
+        %tmp.71 = 1;
+        %tmp.72 = sub %tmp.70 %tmp.71;
+        lputv %nr.4 %tmp.72;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_215_21_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_214_21_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_213_21_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_212_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 216 16 ]
+        %tmp.73 = getv self :tiles;
+        %tmp.75 = lgetv %r.2;
+        %tmp.76 = agetv %tmp.73 %tmp.75;
+        %tmp.78 = getv ? :tiles;
+        %tmp.80 = lgetv %nr.4;
+        %tmp.81 = agetv %tmp.78 %tmp.80;
+        %tmp.83 = lgetv %c.3;
+        %tmp.84 = agetv %tmp.81 %tmp.83;
+        %tmp.86 = lgetv %c.3;
+        aputv %tmp.76 %tmp.86 %tmp.84;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 217 16 ]
+        %tmp.87 = getv self :tiles;
+        %tmp.89 = lgetv %nr.4;
+        %tmp.90 = agetv %tmp.87 %tmp.89;
+        %tmp.91 = 0;
+        %tmp.93 = lgetv %c.3;
+        aputv %tmp.90 %tmp.93 %tmp.91;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 218 16 ]
+        %tmp.95 = lgetv %nr.4;
+        lputv %r.2 %tmp.95;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_40_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_false:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_219_19_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 220 16 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_stmt:
+        %tmp.97 = lgetv %c.3;
+        %tmp.98 = 0;
+        %tmp.99 = eq %tmp.97 %tmp.98;
+        bf %tmp.99 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_28_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 220 30 ]
+        %tmp.101 = lgetv %c.3;
+        %tmp.102 = 1;
+        %tmp.103 = add %tmp.101 %tmp.102;
+        lputv %nc.5 %tmp.103;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_28_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_false:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 221 21 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_stmt:
+        %tmp.105 = lgetv %c.3;
+        %tmp.107 = getv ? :cols;
+        %tmp.108 = 1;
+        %tmp.109 = sub %tmp.107 %tmp.108;
+        %tmp.110 = eq %tmp.105 %tmp.109;
+        bf %tmp.110 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_38_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 221 40 ]
+        %tmp.112 = lgetv %c.3;
+        %tmp.113 = 1;
+        %tmp.114 = sub %tmp.112 %tmp.113;
+        lputv %nc.5 %tmp.114;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_38_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_false:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 222 21 ]
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_stmt:
+        %tmp.115 = getm $.Toybox.Math;
+        %tmp.116 = getv function %tmp.115 :rand;
+        %tmp.117 = invoke %tmp.115 %tmp.116();
+        %tmp.118 = 2;
+        %tmp.119 = mod %tmp.117 %tmp.118;
+        %tmp.120 = 1;
+        %tmp.121 = eq %tmp.119 %tmp.120;
+        bf %tmp.121 @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_false;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_true:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_47_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 222 49 ]
+        %tmp.123 = lgetv %c.3;
+        %tmp.124 = 1;
+        %tmp.125 = add %tmp.123 %tmp.124;
+        lputv %nc.5 %tmp.125;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_47_stop:
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_end;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_false:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_223_21_start:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 223 23 ]
+        %tmp.127 = lgetv %c.3;
+        %tmp.128 = 1;
+        %tmp.129 = sub %tmp.127 %tmp.128;
+        lputv %nc.5 %tmp.129;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_223_21_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_222_21_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_221_21_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_220_16_if_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 224 16 ]
+        %tmp.130 = getv self :tiles;
+        %tmp.132 = lgetv %r.2;
+        %tmp.133 = agetv %tmp.130 %tmp.132;
+        %tmp.135 = getv ? :tiles;
+        %tmp.137 = lgetv %r.2;
+        %tmp.138 = agetv %tmp.135 %tmp.137;
+        %tmp.140 = lgetv %nc.5;
+        %tmp.141 = agetv %tmp.138 %tmp.140;
+        %tmp.143 = lgetv %c.3;
+        aputv %tmp.133 %tmp.143 %tmp.141;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 225 16 ]
+        %tmp.144 = getv self :tiles;
+        %tmp.146 = lgetv %r.2;
+        %tmp.147 = agetv %tmp.144 %tmp.146;
+        %tmp.148 = 0;
+        %tmp.150 = lgetv %nc.5;
+        aputv %tmp.147 %tmp.150 %tmp.148;
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 226 16 ]
+        %tmp.152 = lgetv %nc.5;
+        lputv %c.3 %tmp.152;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_219_19_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_211_12_if_end:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_33_stop:
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_incr:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 210 ]
+        %tmp.155 = lgetv %i.6;
+        %tmp.156 = add %tmp.155 1;
+        lputv %i.6 %tmp.156;
+        goto @C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_test;
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_210_8_for_end:
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 229 8 ]
+        %tmp.158 = getv ? :game;
+        %tmp.159 = getv function %tmp.158 :put;
+        %tmp.160 = "tiles";
+        %tmp.162 = getv ? :tiles;
+        invoke %tmp.158 %tmp.159(%tmp.160, %tmp.162);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 230 8 ]
+        %tmp.163 = getm $.Toybox.Application.Storage;
+        %tmp.164 = getv function %tmp.163 :setValue;
+        %tmp.165 = "game";
+        %tmp.167 = getv ? :game;
+        invoke %tmp.163 %tmp.164(%tmp.165, %tmp.167);
+[ "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc" 231 8 ]
+        %tmp.168 = getm $.Toybox.WatchUi;
+        %tmp.169 = getv function %tmp.168 :requestUpdate;
+        invoke %tmp.168 %tmp.169();
+C_Garmin_Projects_TileSlider_source_TileSliderDelegate_mc_201_23_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TileSlider\source\TileSliderDelegate.mc"; @line = 1; ]
+<init> {
+}

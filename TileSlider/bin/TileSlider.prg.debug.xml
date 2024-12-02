@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Garmin\Projects\TileSlider\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="13" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="17" parent="globals" pc="268435474" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="18" parent="globals" pc="268435497" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="19" parent="globals" pc="268435519" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="20" parent="globals" pc="268435541" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="27" parent="globals" pc="268435563" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="29" parent="globals" pc="268435616" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="32" parent="globals" pc="268435656" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="33" parent="globals" pc="268435696" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="34" parent="globals" pc="268435727" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="35" parent="globals" pc="268435803" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="36" parent="globals" pc="268435903" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="37" parent="globals" pc="268435970" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="38" parent="globals" pc="268436055" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="39" parent="globals" pc="268436140" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="40" parent="globals" pc="268436216" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="41" parent="globals" pc="268436301" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="42" parent="globals" pc="268436410" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="4" lineNum="44" parent="globals" pc="268436477" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268436772" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="7" lineNum="5" parent="globals/TileSliderApp" pc="268436791" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="8" lineNum="12" parent="globals/TileSliderApp" pc="268436810" symbol="onStart"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="9" lineNum="20" parent="globals/TileSliderApp" pc="268436813" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="9" lineNum="21" parent="globals/TileSliderApp" pc="268436815" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="10" lineNum="7" parent="globals/TileSliderApp" pc="268436890" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="10" lineNum="8" parent="globals/TileSliderApp" pc="268436892" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="11" lineNum="16" parent="globals/TileSliderApp" pc="268436911" symbol="onStop"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="12" lineNum="390" parent="globals" pc="268436914" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="12" lineNum="391" parent="globals" pc="268436924" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="12" lineNum="392" parent="globals" pc="268436937" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="12" lineNum="393" parent="globals" pc="268436949" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="12" lineNum="403" parent="globals" pc="268437085" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="500" parent="globals" pc="268437115" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="501" parent="globals" pc="268437127" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="502" parent="globals" pc="268437157" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="503" parent="globals" pc="268437187" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="504" parent="globals" pc="268437217" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="505" parent="globals" pc="268437247" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="506" parent="globals" pc="268437277" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="507" parent="globals" pc="268437281" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="508" parent="globals" pc="268437285" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="509" parent="globals" pc="268437289" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="510" parent="globals" pc="268437297" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="515" parent="globals" pc="268437317" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="520" parent="globals" pc="268437337" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="511" parent="globals" pc="268437360" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="512" parent="globals" pc="268437364" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="513" parent="globals" pc="268437368" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="514" parent="globals" pc="268437372" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="516" parent="globals" pc="268437375" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="517" parent="globals" pc="268437379" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="518" parent="globals" pc="268437383" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="519" parent="globals" pc="268437393" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="521" parent="globals" pc="268437396" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="522" parent="globals" pc="268437400" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="523" parent="globals" pc="268437404" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="524" parent="globals" pc="268437408" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="526" parent="globals" pc="268437412" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="527" parent="globals" pc="268437443" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="528" parent="globals" pc="268437459" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="530" parent="globals" pc="268437466" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="531" parent="globals" pc="268437494" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="532" parent="globals" pc="268437522" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="533" parent="globals" pc="268437522" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="534" parent="globals" pc="268437556" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="535" parent="globals" pc="268437590" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="536" parent="globals" pc="268437624" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="537" parent="globals" pc="268437638" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="538" parent="globals" pc="268437659" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="539" parent="globals" pc="268437680" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="540" parent="globals" pc="268437705" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="541" parent="globals" pc="268437730" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="542" parent="globals" pc="268437786" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="543" parent="globals" pc="268437808" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="544" parent="globals" pc="268437833" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="545" parent="globals" pc="268437850" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="546" parent="globals" pc="268437872" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="548" parent="globals" pc="268437925" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="552" parent="globals" pc="268438005" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="553" parent="globals" pc="268438010" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="554" parent="globals" pc="268438027" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="555" parent="globals" pc="268438048" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="556" parent="globals" pc="268438069" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="557" parent="globals" pc="268438091" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="557" parent="globals" pc="268438157" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="558" parent="globals" pc="268438182" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="13" lineNum="559" parent="globals" pc="268438204" symbol="drawtiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="14" lineNum="642" parent="globals/DrawableMenuTitle" pc="268438320" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="15" lineNum="643" parent="globals/DrawableMenuTitle" pc="268438339" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="15" lineNum="644" parent="globals/DrawableMenuTitle" pc="268438341" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="647" parent="globals/DrawableMenuTitle" pc="268438366" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="648" parent="globals/DrawableMenuTitle" pc="268438368" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="649" parent="globals/DrawableMenuTitle" pc="268438390" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="650" parent="globals/DrawableMenuTitle" pc="268438402" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="651" parent="globals/DrawableMenuTitle" pc="268438475" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="16" lineNum="652" parent="globals/DrawableMenuTitle" pc="268438492" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="17" lineNum="628" parent="globals/TileSliderStatsDelegate" pc="268438543" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="18" lineNum="637" parent="globals/TileSliderStatsDelegate" pc="268438562" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="18" lineNum="638" parent="globals/TileSliderStatsDelegate" pc="268438564" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="19" lineNum="629" parent="globals/TileSliderStatsDelegate" pc="268438586" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="19" lineNum="630" parent="globals/TileSliderStatsDelegate" pc="268438588" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="20" lineNum="633" parent="globals/TileSliderStatsDelegate" pc="268438607" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="20" lineNum="634" parent="globals/TileSliderStatsDelegate" pc="268438609" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="21" lineNum="614" parent="globals/CustomIcon" pc="268438610" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="22" lineNum="617" parent="globals/CustomIcon" pc="268438629" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="22" lineNum="618" parent="globals/CustomIcon" pc="268438631" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="22" lineNum="619" parent="globals/CustomIcon" pc="268438641" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="23" lineNum="622" parent="globals/CustomIcon" pc="268438666" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="23" lineNum="623" parent="globals/CustomIcon" pc="268438668" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="23" lineNum="624" parent="globals/CustomIcon" pc="268438690" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="406" parent="globals" pc="268438703" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="407" parent="globals" pc="268438715" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="408" parent="globals" pc="268438729" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="409" parent="globals" pc="268438743" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="410" parent="globals" pc="268438764" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="411" parent="globals" pc="268438778" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="412" parent="globals" pc="268438792" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="413" parent="globals" pc="268438813" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="414" parent="globals" pc="268438851" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="416" parent="globals" pc="268438902" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="417" parent="globals" pc="268438928" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="419" parent="globals" pc="268438967" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="24" lineNum="420" parent="globals" pc="268439010" symbol="inittiles"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="25" lineNum="656" parent="globals/CustomItem" pc="268439054" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="662" parent="globals/CustomItem" pc="268439073" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="663" parent="globals/CustomItem" pc="268439075" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="664" parent="globals/CustomItem" pc="268439101" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="665" parent="globals/CustomItem" pc="268439111" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="666" parent="globals/CustomItem" pc="268439121" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="26" lineNum="667" parent="globals/CustomItem" pc="268439131" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="670" parent="globals/CustomItem" pc="268439142" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="672" parent="globals/CustomItem" pc="268439146" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="673" parent="globals/CustomItem" pc="268439159" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="674" parent="globals/CustomItem" pc="268439172" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="675" parent="globals/CustomItem" pc="268439182" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="676" parent="globals/CustomItem" pc="268439198" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="677" parent="globals/CustomItem" pc="268439202" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="678" parent="globals/CustomItem" pc="268439221" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="679" parent="globals/CustomItem" pc="268439228" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="680" parent="globals/CustomItem" pc="268439235" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="681" parent="globals/CustomItem" pc="268439245" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="682" parent="globals/CustomItem" pc="268439262" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="683" parent="globals/CustomItem" pc="268439269" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="685" parent="globals/CustomItem" pc="268439279" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="685" parent="globals/CustomItem" pc="268439290" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="687" parent="globals/CustomItem" pc="268439327" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="688" parent="globals/CustomItem" pc="268439349" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="689" parent="globals/CustomItem" pc="268439389" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="690" parent="globals/CustomItem" pc="268439411" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="691" parent="globals/CustomItem" pc="268439445" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="27" lineNum="692" parent="globals/CustomItem" pc="268439467" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="28" lineNum="599" parent="globals/TileSliderSettings" pc="268439502" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="600" parent="globals/TileSliderSettings" pc="268439521" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="601" parent="globals/TileSliderSettings" pc="268439525" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="602" parent="globals/TileSliderSettings" pc="268439544" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="604" parent="globals/TileSliderSettings" pc="268439567" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="605" parent="globals/TileSliderSettings" pc="268439603" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="606" parent="globals/TileSliderSettings" pc="268439639" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="608" parent="globals/TileSliderSettings" pc="268439672" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="609" parent="globals/TileSliderSettings" pc="268439746" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="29" lineNum="610" parent="globals/TileSliderSettings" pc="268439820" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="570" parent="globals" pc="268439883" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="571" parent="globals" pc="268439893" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="572" parent="globals" pc="268439929" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="573" parent="globals" pc="268439959" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="574" parent="globals" pc="268439987" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="575" parent="globals" pc="268440000" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="577" parent="globals" pc="268440177" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="578" parent="globals" pc="268440214" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="30" lineNum="579" parent="globals" pc="268440248" symbol="savestats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="31" lineNum="6" parent="globals/TileSliderMenuDelegate" pc="268440278" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="32" lineNum="33" parent="globals/TileSliderMenuDelegate" pc="268440297" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="32" lineNum="34" parent="globals/TileSliderMenuDelegate" pc="268440299" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="33" lineNum="8" parent="globals/TileSliderMenuDelegate" pc="268440321" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="33" lineNum="9" parent="globals/TileSliderMenuDelegate" pc="268440323" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="12" parent="globals/TileSliderMenuDelegate" pc="268440342" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="13" parent="globals/TileSliderMenuDelegate" pc="268440344" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="14" parent="globals/TileSliderMenuDelegate" pc="268440355" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="22" parent="globals/TileSliderMenuDelegate" pc="268440375" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="27" parent="globals/TileSliderMenuDelegate" pc="268440395" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="15" parent="globals/TileSliderMenuDelegate" pc="268440418" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="16" parent="globals/TileSliderMenuDelegate" pc="268440458" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="17" parent="globals/TileSliderMenuDelegate" pc="268440487" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="18" parent="globals/TileSliderMenuDelegate" pc="268440516" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="19" parent="globals/TileSliderMenuDelegate" pc="268440547" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="21" parent="globals/TileSliderMenuDelegate" pc="268440562" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="23" parent="globals/TileSliderMenuDelegate" pc="268440565" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="24" parent="globals/TileSliderMenuDelegate" pc="268440605" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="25" parent="globals/TileSliderMenuDelegate" pc="268440634" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="26" parent="globals/TileSliderMenuDelegate" pc="268440663" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="28" parent="globals/TileSliderMenuDelegate" pc="268440666" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderMenuDelegate.mc" id="34" lineNum="29" parent="globals/TileSliderMenuDelegate" pc="268440678" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="35" lineNum="6" parent="globals/TileSliderDelegate" pc="268440683" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="36" lineNum="12" parent="globals/TileSliderDelegate" pc="268440702" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="36" lineNum="13" parent="globals/TileSliderDelegate" pc="268440704" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="36" lineNum="14" parent="globals/TileSliderDelegate" pc="268440777" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="160" parent="globals/TileSliderDelegate" pc="268440780" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="162" parent="globals/TileSliderDelegate" pc="268440784" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="163" parent="globals/TileSliderDelegate" pc="268440806" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="163" parent="globals/TileSliderDelegate" pc="268440829" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="164" parent="globals/TileSliderDelegate" pc="268440835" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="165" parent="globals/TileSliderDelegate" pc="268440856" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="166" parent="globals/TileSliderDelegate" pc="268440879" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="167" parent="globals/TileSliderDelegate" pc="268440887" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="168" parent="globals/TileSliderDelegate" pc="268440899" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="169" parent="globals/TileSliderDelegate" pc="268440933" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="172" parent="globals/TileSliderDelegate" pc="268440968" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="173" parent="globals/TileSliderDelegate" pc="268440980" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="174" parent="globals/TileSliderDelegate" pc="268441014" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="177" parent="globals/TileSliderDelegate" pc="268441046" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="178" parent="globals/TileSliderDelegate" pc="268441065" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="181" parent="globals/TileSliderDelegate" pc="268441084" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="182" parent="globals/TileSliderDelegate" pc="268441105" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="183" parent="globals/TileSliderDelegate" pc="268441128" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="184" parent="globals/TileSliderDelegate" pc="268441136" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="185" parent="globals/TileSliderDelegate" pc="268441148" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="186" parent="globals/TileSliderDelegate" pc="268441182" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="189" parent="globals/TileSliderDelegate" pc="268441217" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="190" parent="globals/TileSliderDelegate" pc="268441229" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="191" parent="globals/TileSliderDelegate" pc="268441263" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="194" parent="globals/TileSliderDelegate" pc="268441295" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="195" parent="globals/TileSliderDelegate" pc="268441314" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="37" lineNum="198" parent="globals/TileSliderDelegate" pc="268441333" symbol="proctile"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="38" lineNum="8" parent="globals/TileSliderDelegate" pc="268441336" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="38" lineNum="9" parent="globals/TileSliderDelegate" pc="268441338" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="17" parent="globals/TileSliderDelegate" pc="268441357" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="18" parent="globals/TileSliderDelegate" pc="268441361" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="19" parent="globals/TileSliderDelegate" pc="268441374" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="20" parent="globals/TileSliderDelegate" pc="268441398" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="21" parent="globals/TileSliderDelegate" pc="268441400" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="85" parent="globals/TileSliderDelegate" pc="268441420" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="125" parent="globals/TileSliderDelegate" pc="268441440" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="23" parent="globals/TileSliderDelegate" pc="268441463" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="24" parent="globals/TileSliderDelegate" pc="268441495" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="25" parent="globals/TileSliderDelegate" pc="268441518" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="26" parent="globals/TileSliderDelegate" pc="268441528" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="27" parent="globals/TileSliderDelegate" pc="268441553" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="28" parent="globals/TileSliderDelegate" pc="268441582" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="29" parent="globals/TileSliderDelegate" pc="268441594" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="30" parent="globals/TileSliderDelegate" pc="268441610" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="33" parent="globals/TileSliderDelegate" pc="268441616" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="34" parent="globals/TileSliderDelegate" pc="268441648" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="35" parent="globals/TileSliderDelegate" pc="268441671" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="36" parent="globals/TileSliderDelegate" pc="268441690" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="36" parent="globals/TileSliderDelegate" pc="268441707" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="37" parent="globals/TileSliderDelegate" pc="268441741" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="38" parent="globals/TileSliderDelegate" pc="268441772" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="39" parent="globals/TileSliderDelegate" pc="268441801" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="40" parent="globals/TileSliderDelegate" pc="268441813" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="41" parent="globals/TileSliderDelegate" pc="268441829" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="43" parent="globals/TileSliderDelegate" pc="268441835" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="44" parent="globals/TileSliderDelegate" pc="268441867" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="45" parent="globals/TileSliderDelegate" pc="268441890" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="46" parent="globals/TileSliderDelegate" pc="268441909" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="46" parent="globals/TileSliderDelegate" pc="268441944" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="47" parent="globals/TileSliderDelegate" pc="268441960" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="48" parent="globals/TileSliderDelegate" pc="268441991" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="49" parent="globals/TileSliderDelegate" pc="268442020" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="50" parent="globals/TileSliderDelegate" pc="268442032" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="51" parent="globals/TileSliderDelegate" pc="268442048" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="54" parent="globals/TileSliderDelegate" pc="268442054" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="55" parent="globals/TileSliderDelegate" pc="268442086" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="56" parent="globals/TileSliderDelegate" pc="268442109" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="57" parent="globals/TileSliderDelegate" pc="268442128" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="57" parent="globals/TileSliderDelegate" pc="268442145" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="58" parent="globals/TileSliderDelegate" pc="268442161" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="59" parent="globals/TileSliderDelegate" pc="268442177" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="60" parent="globals/TileSliderDelegate" pc="268442208" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="61" parent="globals/TileSliderDelegate" pc="268442239" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="62" parent="globals/TileSliderDelegate" pc="268442251" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="63" parent="globals/TileSliderDelegate" pc="268442282" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="64" parent="globals/TileSliderDelegate" pc="268442313" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="65" parent="globals/TileSliderDelegate" pc="268442342" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="66" parent="globals/TileSliderDelegate" pc="268442354" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="67" parent="globals/TileSliderDelegate" pc="268442370" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="69" parent="globals/TileSliderDelegate" pc="268442376" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="70" parent="globals/TileSliderDelegate" pc="268442408" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="71" parent="globals/TileSliderDelegate" pc="268442431" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="72" parent="globals/TileSliderDelegate" pc="268442450" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="72" parent="globals/TileSliderDelegate" pc="268442467" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="73" parent="globals/TileSliderDelegate" pc="268442483" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="74" parent="globals/TileSliderDelegate" pc="268442499" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="75" parent="globals/TileSliderDelegate" pc="268442530" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="76" parent="globals/TileSliderDelegate" pc="268442561" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="77" parent="globals/TileSliderDelegate" pc="268442573" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="78" parent="globals/TileSliderDelegate" pc="268442604" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="79" parent="globals/TileSliderDelegate" pc="268442635" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="80" parent="globals/TileSliderDelegate" pc="268442664" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="81" parent="globals/TileSliderDelegate" pc="268442676" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="82" parent="globals/TileSliderDelegate" pc="268442692" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="84" parent="globals/TileSliderDelegate" pc="268442698" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="87" parent="globals/TileSliderDelegate" pc="268442701" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="88" parent="globals/TileSliderDelegate" pc="268442733" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="89" parent="globals/TileSliderDelegate" pc="268442756" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="90" parent="globals/TileSliderDelegate" pc="268442768" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="91" parent="globals/TileSliderDelegate" pc="268442784" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="94" parent="globals/TileSliderDelegate" pc="268442790" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="95" parent="globals/TileSliderDelegate" pc="268442802" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="96" parent="globals/TileSliderDelegate" pc="268442836" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="97" parent="globals/TileSliderDelegate" pc="268442857" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="98" parent="globals/TileSliderDelegate" pc="268442878" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="99" parent="globals/TileSliderDelegate" pc="268442900" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="100" parent="globals/TileSliderDelegate" pc="268442971" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="101" parent="globals/TileSliderDelegate" pc="268443003" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="102" parent="globals/TileSliderDelegate" pc="268443021" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="103" parent="globals/TileSliderDelegate" pc="268443052" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="104" parent="globals/TileSliderDelegate" pc="268443083" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="105" parent="globals/TileSliderDelegate" pc="268443129" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="106" parent="globals/TileSliderDelegate" pc="268443136" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="107" parent="globals/TileSliderDelegate" pc="268443148" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="109" parent="globals/TileSliderDelegate" pc="268443176" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="110" parent="globals/TileSliderDelegate" pc="268443205" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="111" parent="globals/TileSliderDelegate" pc="268443221" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="118" parent="globals/TileSliderDelegate" pc="268443259" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="119" parent="globals/TileSliderDelegate" pc="268443291" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="120" parent="globals/TileSliderDelegate" pc="268443314" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="121" parent="globals/TileSliderDelegate" pc="268443331" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="122" parent="globals/TileSliderDelegate" pc="268443347" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="124" parent="globals/TileSliderDelegate" pc="268443353" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="126" parent="globals/TileSliderDelegate" pc="268443356" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="127" parent="globals/TileSliderDelegate" pc="268443388" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="128" parent="globals/TileSliderDelegate" pc="268443411" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="129" parent="globals/TileSliderDelegate" pc="268443423" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="130" parent="globals/TileSliderDelegate" pc="268443439" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="132" parent="globals/TileSliderDelegate" pc="268443445" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="39" lineNum="134" parent="globals/TileSliderDelegate" pc="268443449" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="201" parent="globals/TileSliderDelegate" pc="268443452" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="202" parent="globals/TileSliderDelegate" pc="268443456" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="203" parent="globals/TileSliderDelegate" pc="268443486" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="204" parent="globals/TileSliderDelegate" pc="268443516" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="205" parent="globals/TileSliderDelegate" pc="268443546" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="206" parent="globals/TileSliderDelegate" pc="268443550" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="207" parent="globals/TileSliderDelegate" pc="268443566" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="208" parent="globals/TileSliderDelegate" pc="268443582" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="209" parent="globals/TileSliderDelegate" pc="268443589" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="210" parent="globals/TileSliderDelegate" pc="268443596" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="211" parent="globals/TileSliderDelegate" pc="268443614" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="212" parent="globals/TileSliderDelegate" pc="268443644" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="212" parent="globals/TileSliderDelegate" pc="268443655" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="213" parent="globals/TileSliderDelegate" pc="268443668" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="213" parent="globals/TileSliderDelegate" pc="268443688" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="214" parent="globals/TileSliderDelegate" pc="268443701" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="214" parent="globals/TileSliderDelegate" pc="268443731" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="215" parent="globals/TileSliderDelegate" pc="268443744" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="216" parent="globals/TileSliderDelegate" pc="268443754" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="217" parent="globals/TileSliderDelegate" pc="268443782" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="218" parent="globals/TileSliderDelegate" pc="268443801" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="220" parent="globals/TileSliderDelegate" pc="268443808" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="220" parent="globals/TileSliderDelegate" pc="268443819" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="221" parent="globals/TileSliderDelegate" pc="268443832" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="221" parent="globals/TileSliderDelegate" pc="268443852" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="222" parent="globals/TileSliderDelegate" pc="268443865" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="222" parent="globals/TileSliderDelegate" pc="268443895" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="223" parent="globals/TileSliderDelegate" pc="268443908" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="224" parent="globals/TileSliderDelegate" pc="268443918" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="225" parent="globals/TileSliderDelegate" pc="268443946" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="226" parent="globals/TileSliderDelegate" pc="268443965" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="229" parent="globals/TileSliderDelegate" pc="268443982" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="230" parent="globals/TileSliderDelegate" pc="268444013" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="40" lineNum="231" parent="globals/TileSliderDelegate" pc="268444042" symbol="shuffle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="149" parent="globals/TileSliderDelegate" pc="268444059" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="150" parent="globals/TileSliderDelegate" pc="268444061" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="150" parent="globals/TileSliderDelegate" pc="268444081" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="151" parent="globals/TileSliderDelegate" pc="268444087" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="151" parent="globals/TileSliderDelegate" pc="268444116" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="152" parent="globals/TileSliderDelegate" pc="268444122" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="152" parent="globals/TileSliderDelegate" pc="268444142" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="153" parent="globals/TileSliderDelegate" pc="268444148" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="153" parent="globals/TileSliderDelegate" pc="268444177" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="41" lineNum="154" parent="globals/TileSliderDelegate" pc="268444183" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="137" parent="globals/TileSliderDelegate" pc="268444186" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="138" parent="globals/TileSliderDelegate" pc="268444190" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="139" parent="globals/TileSliderDelegate" pc="268444200" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="140" parent="globals/TileSliderDelegate" pc="268444210" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="141" parent="globals/TileSliderDelegate" pc="268444220" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderDelegate.mc" id="42" lineNum="142" parent="globals/TileSliderDelegate" pc="268444230" symbol="inCircle"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="43" lineNum="26" parent="globals" pc="268444260" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderApp.mc" id="43" lineNum="27" parent="globals" pc="268444270" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="44" lineNum="57" parent="globals/TileSliderView" pc="268444286" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="64" parent="globals/TileSliderView" pc="268444305" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="65" parent="globals/TileSliderView" pc="268444307" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="66" parent="globals/TileSliderView" pc="268444335" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="66" parent="globals/TileSliderView" pc="268444348" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="67" parent="globals/TileSliderView" pc="268444363" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="68" parent="globals/TileSliderView" pc="268444391" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="68" parent="globals/TileSliderView" pc="268444404" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="69" parent="globals/TileSliderView" pc="268444420" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="70" parent="globals/TileSliderView" pc="268444442" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="71" parent="globals/TileSliderView" pc="268444470" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="71" parent="globals/TileSliderView" pc="268444483" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="72" parent="globals/TileSliderView" pc="268444499" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="46" lineNum="73" parent="globals/TileSliderView" pc="268444520" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="47" lineNum="59" parent="globals/TileSliderView" pc="268444533" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="47" lineNum="60" parent="globals/TileSliderView" pc="268444535" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="83" parent="globals/TileSliderView" pc="268444554" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="102" parent="globals/TileSliderView" pc="268444558" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="103" parent="globals/TileSliderView" pc="268444580" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="105" parent="globals/TileSliderView" pc="268444592" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="106" parent="globals/TileSliderView" pc="268444620" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="106" parent="globals/TileSliderView" pc="268444633" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="107" parent="globals/TileSliderView" pc="268444649" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="108" parent="globals/TileSliderView" pc="268444671" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="109" parent="globals/TileSliderView" pc="268444699" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="109" parent="globals/TileSliderView" pc="268444712" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="111" parent="globals/TileSliderView" pc="268444728" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="112" parent="globals/TileSliderView" pc="268444749" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="114" parent="globals/TileSliderView" pc="268444763" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="115" parent="globals/TileSliderView" pc="268444793" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="116" parent="globals/TileSliderView" pc="268444823" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="117" parent="globals/TileSliderView" pc="268444851" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="119" parent="globals/TileSliderView" pc="268444881" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="120" parent="globals/TileSliderView" pc="268444884" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="121" parent="globals/TileSliderView" pc="268444889" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="122" parent="globals/TileSliderView" pc="268444910" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="124" parent="globals/TileSliderView" pc="268444976" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="126" parent="globals/TileSliderView" pc="268444997" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="127" parent="globals/TileSliderView" pc="268445014" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="128" parent="globals/TileSliderView" pc="268445022" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="237" parent="globals/TileSliderView" pc="268445042" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="318" parent="globals/TileSliderView" pc="268445062" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="130" parent="globals/TileSliderView" pc="268445085" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="131" parent="globals/TileSliderView" pc="268445102" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="132" parent="globals/TileSliderView" pc="268445124" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="134" parent="globals/TileSliderView" pc="268445221" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="135" parent="globals/TileSliderView" pc="268445243" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="136" parent="globals/TileSliderView" pc="268445319" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="137" parent="globals/TileSliderView" pc="268445327" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="142" parent="globals/TileSliderView" pc="268445347" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="156" parent="globals/TileSliderView" pc="268445367" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="138" parent="globals/TileSliderView" pc="268445390" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="139" parent="globals/TileSliderView" pc="268445412" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="140" parent="globals/TileSliderView" pc="268445470" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="141" parent="globals/TileSliderView" pc="268445528" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="143" parent="globals/TileSliderView" pc="268445531" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="144" parent="globals/TileSliderView" pc="268445553" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="145" parent="globals/TileSliderView" pc="268445619" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="146" parent="globals/TileSliderView" pc="268445685" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="147" parent="globals/TileSliderView" pc="268445707" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="148" parent="globals/TileSliderView" pc="268445755" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="149" parent="globals/TileSliderView" pc="268445803" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="150" parent="globals/TileSliderView" pc="268445825" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="151" parent="globals/TileSliderView" pc="268445901" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="152" parent="globals/TileSliderView" pc="268445977" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="153" parent="globals/TileSliderView" pc="268445999" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="154" parent="globals/TileSliderView" pc="268446057" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="155" parent="globals/TileSliderView" pc="268446115" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="157" parent="globals/TileSliderView" pc="268446118" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="158" parent="globals/TileSliderView" pc="268446140" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="159" parent="globals/TileSliderView" pc="268446206" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="160" parent="globals/TileSliderView" pc="268446272" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="161" parent="globals/TileSliderView" pc="268446294" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="162" parent="globals/TileSliderView" pc="268446342" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="163" parent="globals/TileSliderView" pc="268446390" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="164" parent="globals/TileSliderView" pc="268446412" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="165" parent="globals/TileSliderView" pc="268446488" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="166" parent="globals/TileSliderView" pc="268446564" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="167" parent="globals/TileSliderView" pc="268446586" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="168" parent="globals/TileSliderView" pc="268446644" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="169" parent="globals/TileSliderView" pc="268446702" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="173" parent="globals/TileSliderView" pc="268446706" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="174" parent="globals/TileSliderView" pc="268446714" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="179" parent="globals/TileSliderView" pc="268446734" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="193" parent="globals/TileSliderView" pc="268446754" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="175" parent="globals/TileSliderView" pc="268446777" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="176" parent="globals/TileSliderView" pc="268446799" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="177" parent="globals/TileSliderView" pc="268446857" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="178" parent="globals/TileSliderView" pc="268446915" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="180" parent="globals/TileSliderView" pc="268446918" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="181" parent="globals/TileSliderView" pc="268446940" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="182" parent="globals/TileSliderView" pc="268447006" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="183" parent="globals/TileSliderView" pc="268447072" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="184" parent="globals/TileSliderView" pc="268447094" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="185" parent="globals/TileSliderView" pc="268447142" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="186" parent="globals/TileSliderView" pc="268447190" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="187" parent="globals/TileSliderView" pc="268447212" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="188" parent="globals/TileSliderView" pc="268447288" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="189" parent="globals/TileSliderView" pc="268447364" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="190" parent="globals/TileSliderView" pc="268447386" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="191" parent="globals/TileSliderView" pc="268447444" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="192" parent="globals/TileSliderView" pc="268447502" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="194" parent="globals/TileSliderView" pc="268447505" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="195" parent="globals/TileSliderView" pc="268447527" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="196" parent="globals/TileSliderView" pc="268447593" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="197" parent="globals/TileSliderView" pc="268447659" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="198" parent="globals/TileSliderView" pc="268447681" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="199" parent="globals/TileSliderView" pc="268447729" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="200" parent="globals/TileSliderView" pc="268447777" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="201" parent="globals/TileSliderView" pc="268447799" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="202" parent="globals/TileSliderView" pc="268447875" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="203" parent="globals/TileSliderView" pc="268447951" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="204" parent="globals/TileSliderView" pc="268447973" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="205" parent="globals/TileSliderView" pc="268448031" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="206" parent="globals/TileSliderView" pc="268448089" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="210" parent="globals/TileSliderView" pc="268448093" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="211" parent="globals/TileSliderView" pc="268448101" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="215" parent="globals/TileSliderView" pc="268448121" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="225" parent="globals/TileSliderView" pc="268448141" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="212" parent="globals/TileSliderView" pc="268448164" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="213" parent="globals/TileSliderView" pc="268448186" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="214" parent="globals/TileSliderView" pc="268448286" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="216" parent="globals/TileSliderView" pc="268448289" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="217" parent="globals/TileSliderView" pc="268448311" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="218" parent="globals/TileSliderView" pc="268448405" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="219" parent="globals/TileSliderView" pc="268448427" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="220" parent="globals/TileSliderView" pc="268448503" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="221" parent="globals/TileSliderView" pc="268448525" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="222" parent="globals/TileSliderView" pc="268448643" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="223" parent="globals/TileSliderView" pc="268448665" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="224" parent="globals/TileSliderView" pc="268448765" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="226" parent="globals/TileSliderView" pc="268448768" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="227" parent="globals/TileSliderView" pc="268448790" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="228" parent="globals/TileSliderView" pc="268448884" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="229" parent="globals/TileSliderView" pc="268448906" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="230" parent="globals/TileSliderView" pc="268448982" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="231" parent="globals/TileSliderView" pc="268449004" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="232" parent="globals/TileSliderView" pc="268449122" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="233" parent="globals/TileSliderView" pc="268449144" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="234" parent="globals/TileSliderView" pc="268449244" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="236" parent="globals/TileSliderView" pc="268449248" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="239" parent="globals/TileSliderView" pc="268449251" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="239" parent="globals/TileSliderView" pc="268449262" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="240" parent="globals/TileSliderView" pc="268449278" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="241" parent="globals/TileSliderView" pc="268449291" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="242" parent="globals/TileSliderView" pc="268449299" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="246" parent="globals/TileSliderView" pc="268449319" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="256" parent="globals/TileSliderView" pc="268449339" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="243" parent="globals/TileSliderView" pc="268449362" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="244" parent="globals/TileSliderView" pc="268449384" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="245" parent="globals/TileSliderView" pc="268449487" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="247" parent="globals/TileSliderView" pc="268449490" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="248" parent="globals/TileSliderView" pc="268449512" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="249" parent="globals/TileSliderView" pc="268449606" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="250" parent="globals/TileSliderView" pc="268449628" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="251" parent="globals/TileSliderView" pc="268449704" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="252" parent="globals/TileSliderView" pc="268449726" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="253" parent="globals/TileSliderView" pc="268449847" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="254" parent="globals/TileSliderView" pc="268449869" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="255" parent="globals/TileSliderView" pc="268449972" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="257" parent="globals/TileSliderView" pc="268449975" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="258" parent="globals/TileSliderView" pc="268449997" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="259" parent="globals/TileSliderView" pc="268450091" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="260" parent="globals/TileSliderView" pc="268450113" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="261" parent="globals/TileSliderView" pc="268450189" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="262" parent="globals/TileSliderView" pc="268450211" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="263" parent="globals/TileSliderView" pc="268450332" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="264" parent="globals/TileSliderView" pc="268450354" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="265" parent="globals/TileSliderView" pc="268450457" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="269" parent="globals/TileSliderView" pc="268450461" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="270" parent="globals/TileSliderView" pc="268450468" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="271" parent="globals/TileSliderView" pc="268450485" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="272" parent="globals/TileSliderView" pc="268450507" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="274" parent="globals/TileSliderView" pc="268450597" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="275" parent="globals/TileSliderView" pc="268450619" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="276" parent="globals/TileSliderView" pc="268450688" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="277" parent="globals/TileSliderView" pc="268450701" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="278" parent="globals/TileSliderView" pc="268450732" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="279" parent="globals/TileSliderView" pc="268450755" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="280" parent="globals/TileSliderView" pc="268450807" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="281" parent="globals/TileSliderView" pc="268450824" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="282" parent="globals/TileSliderView" pc="268450846" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="284" parent="globals/TileSliderView" pc="268450936" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="285" parent="globals/TileSliderView" pc="268450958" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="291" parent="globals/TileSliderView" pc="268451036" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="292" parent="globals/TileSliderView" pc="268451044" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="296" parent="globals/TileSliderView" pc="268451064" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="306" parent="globals/TileSliderView" pc="268451084" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="293" parent="globals/TileSliderView" pc="268451107" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="294" parent="globals/TileSliderView" pc="268451129" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="295" parent="globals/TileSliderView" pc="268451229" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="297" parent="globals/TileSliderView" pc="268451232" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="298" parent="globals/TileSliderView" pc="268451254" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="299" parent="globals/TileSliderView" pc="268451348" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="300" parent="globals/TileSliderView" pc="268451370" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="301" parent="globals/TileSliderView" pc="268451446" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="302" parent="globals/TileSliderView" pc="268451468" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="303" parent="globals/TileSliderView" pc="268451586" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="304" parent="globals/TileSliderView" pc="268451608" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="305" parent="globals/TileSliderView" pc="268451708" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="307" parent="globals/TileSliderView" pc="268451711" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="308" parent="globals/TileSliderView" pc="268451733" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="309" parent="globals/TileSliderView" pc="268451827" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="310" parent="globals/TileSliderView" pc="268451849" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="311" parent="globals/TileSliderView" pc="268451925" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="312" parent="globals/TileSliderView" pc="268451947" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="313" parent="globals/TileSliderView" pc="268452065" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="314" parent="globals/TileSliderView" pc="268452087" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="315" parent="globals/TileSliderView" pc="268452187" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="317" parent="globals/TileSliderView" pc="268452191" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="320" parent="globals/TileSliderView" pc="268452194" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="321" parent="globals/TileSliderView" pc="268452211" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="322" parent="globals/TileSliderView" pc="268452233" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="324" parent="globals/TileSliderView" pc="268452312" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="325" parent="globals/TileSliderView" pc="268452334" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="328" parent="globals/TileSliderView" pc="268452392" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="329" parent="globals/TileSliderView" pc="268452399" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="330" parent="globals/TileSliderView" pc="268452416" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="331" parent="globals/TileSliderView" pc="268452438" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="333" parent="globals/TileSliderView" pc="268452528" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="334" parent="globals/TileSliderView" pc="268452550" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="335" parent="globals/TileSliderView" pc="268452619" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="336" parent="globals/TileSliderView" pc="268452632" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="337" parent="globals/TileSliderView" pc="268452663" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="338" parent="globals/TileSliderView" pc="268452686" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="339" parent="globals/TileSliderView" pc="268452738" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="340" parent="globals/TileSliderView" pc="268452755" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="341" parent="globals/TileSliderView" pc="268452777" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="343" parent="globals/TileSliderView" pc="268452867" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="344" parent="globals/TileSliderView" pc="268452889" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="350" parent="globals/TileSliderView" pc="268452967" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="351" parent="globals/TileSliderView" pc="268452975" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="355" parent="globals/TileSliderView" pc="268452995" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="365" parent="globals/TileSliderView" pc="268453015" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="352" parent="globals/TileSliderView" pc="268453038" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="353" parent="globals/TileSliderView" pc="268453060" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="354" parent="globals/TileSliderView" pc="268453160" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="356" parent="globals/TileSliderView" pc="268453163" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="357" parent="globals/TileSliderView" pc="268453185" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="358" parent="globals/TileSliderView" pc="268453279" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="359" parent="globals/TileSliderView" pc="268453301" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="360" parent="globals/TileSliderView" pc="268453377" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="361" parent="globals/TileSliderView" pc="268453399" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="362" parent="globals/TileSliderView" pc="268453517" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="363" parent="globals/TileSliderView" pc="268453539" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="364" parent="globals/TileSliderView" pc="268453639" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="366" parent="globals/TileSliderView" pc="268453642" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="367" parent="globals/TileSliderView" pc="268453664" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="368" parent="globals/TileSliderView" pc="268453758" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="369" parent="globals/TileSliderView" pc="268453780" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="370" parent="globals/TileSliderView" pc="268453856" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="371" parent="globals/TileSliderView" pc="268453878" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="372" parent="globals/TileSliderView" pc="268453996" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="373" parent="globals/TileSliderView" pc="268454018" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="374" parent="globals/TileSliderView" pc="268454118" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="49" lineNum="376" parent="globals/TileSliderView" pc="268454122" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="582" parent="globals" pc="268454127" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="583" parent="globals" pc="268454139" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="584" parent="globals" pc="268454167" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="584" parent="globals" pc="268454180" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="585" parent="globals" pc="268454184" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="589" parent="globals" pc="268454271" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="590" parent="globals" pc="268454325" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="591" parent="globals" pc="268454385" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="592" parent="globals" pc="268454415" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="594" parent="globals" pc="268454509" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="50" lineNum="595" parent="globals" pc="268454554" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="424" parent="globals" pc="268454571" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="425" parent="globals" pc="268454583" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="426" parent="globals" pc="268454613" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="427" parent="globals" pc="268454643" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="428" parent="globals" pc="268454673" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="429" parent="globals" pc="268454673" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="430" parent="globals" pc="268454701" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="431" parent="globals" pc="268454729" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="432" parent="globals" pc="268454759" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="433" parent="globals" pc="268454776" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="434" parent="globals" pc="268454776" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="435" parent="globals" pc="268454784" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="436" parent="globals" pc="268454804" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="439" parent="globals" pc="268454824" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="442" parent="globals" pc="268454844" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="445" parent="globals" pc="268454864" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="446" parent="globals" pc="268454884" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="437" parent="globals" pc="268454887" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="438" parent="globals" pc="268454894" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="440" parent="globals" pc="268454897" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="441" parent="globals" pc="268454904" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="443" parent="globals" pc="268454907" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="444" parent="globals" pc="268454914" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="447" parent="globals" pc="268454917" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="448" parent="globals" pc="268454924" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="450" parent="globals" pc="268454928" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="450" parent="globals" pc="268454945" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="451" parent="globals" pc="268454973" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="452" parent="globals" pc="268454998" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="453" parent="globals" pc="268455019" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="454" parent="globals" pc="268455040" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="455" parent="globals" pc="268455068" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="456" parent="globals" pc="268455120" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="457" parent="globals" pc="268455139" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="458" parent="globals" pc="268455156" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="459" parent="globals" pc="268455184" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="460" parent="globals" pc="268455202" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="461" parent="globals" pc="268455230" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="462" parent="globals" pc="268455300" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="463" parent="globals" pc="268455328" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="465" parent="globals" pc="268455383" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="466" parent="globals" pc="268455411" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="467" parent="globals" pc="268455429" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="468" parent="globals" pc="268455455" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="469" parent="globals" pc="268455483" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="470" parent="globals" pc="268455527" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="472" parent="globals" pc="268455579" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="472" parent="globals" pc="268455608" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="473" parent="globals" pc="268455624" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="477" parent="globals" pc="268455672" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="478" parent="globals" pc="268455706" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="479" parent="globals" pc="268455731" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="480" parent="globals" pc="268455759" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="481" parent="globals" pc="268455787" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="482" parent="globals" pc="268455787" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="483" parent="globals" pc="268455808" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="484" parent="globals" pc="268455829" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="485" parent="globals" pc="268455881" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="486" parent="globals" pc="268455900" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="487" parent="globals" pc="268455928" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="488" parent="globals" pc="268455944" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="489" parent="globals" pc="268455960" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="492" parent="globals" pc="268456012" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="492" parent="globals" pc="268456041" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\source\\TileSliderView.mc" id="51" lineNum="493" parent="globals" pc="268456057" symbol="loadimage"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="52" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268456103" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="53" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268456122" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="53" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268456124" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="53" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268456142" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TileSlider\\bin\\gen\\006-B2656-00\\source\\Rez.mcgen" id="53" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268456198" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="36" symbol="newXY"/>
+<entry field="true" id="35" symbol="newWH"/>
+<entry field="true" id="66" symbol="&lt;globals/CustomItem/&lt;&gt;_id&gt;"/>
+<entry id="49" method="true" symbol="showstats"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="31" symbol="images"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="52" symbol="square"/>
+<entry field="true" id="41" symbol="previmageXY"/>
+<entry id="9" object="true" symbol="CustomIcon"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry field="true" id="43" symbol="rows"/>
+<entry field="true" id="8391941" symbol="theme"/>
+<entry field="true" id="51" symbol="solved"/>
+<entry field="true" id="75" symbol="coaster"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="81" symbol="stones"/>
+<entry field="true" id="80" symbol="spider"/>
+<entry id="70" method="true" symbol="inbox"/>
+<entry field="true" id="8388782" method="true" symbol="size"/>
+<entry field="true" id="21" symbol="average"/>
+<entry field="true" id="68" symbol="&lt;globals/CustomItem/&lt;&gt;_moves&gt;"/>
+<entry field="true" id="83" symbol="AppName"/>
+<entry field="true" id="58" symbol="tiles"/>
+<entry id="71" method="true" symbol="proctile"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="59" symbol="tmp"/>
+<entry field="true" id="30" symbol="image"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry field="true" id="57" symbol="tileimages"/>
+<entry field="true" id="65" symbol="&lt;globals/CustomItem/&lt;&gt;_games&gt;"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="86" symbol="prompt"/>
+<entry field="true" id="77" symbol="flower"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="23" symbol="center"/>
+<entry field="true" id="50" symbol="so"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="32" method="true" symbol="inittiles"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="88" symbol="item_2"/>
+<entry id="87" symbol="item_1"/>
+<entry id="63" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="17" object="true" symbol="TileSliderMenuDelegate"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="74" symbol="bear"/>
+<entry id="33" method="true" symbol="loadimage"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="67" symbol="&lt;globals/CustomItem/&lt;&gt;_label&gt;"/>
+<entry field="true" id="54" symbol="themes"/>
+<entry id="19" object="true" symbol="TileSliderStatsDelegate"/>
+<entry id="8390442" method="true" symbol="shuffle"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="40" symbol="prevdimXY"/>
+<entry field="true" id="56" symbol="tileXY"/>
+<entry field="true" id="55" symbol="tileWH"/>
+<entry id="10" object="true" symbol="CustomItem"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="22" symbol="bmsize"/>
+<entry id="37" method="true" symbol="newgame"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="82" object="true" symbol="MainMenu"/>
+<entry field="true" id="14" symbol="SW"/>
+<entry field="true" id="47" symbol="showing"/>
+<entry field="true" id="13" symbol="SH"/>
+<entry field="true" id="25" symbol="dimXY"/>
+<entry id="26" method="true" symbol="drawtiles"/>
+<entry id="44" method="true" symbol="savestats"/>
+<entry field="true" id="73" symbol="autumn"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8392233" symbol="transform"/>
+<entry field="true" id="64" symbol="&lt;globals/CustomIcon/&lt;&gt;_index&gt;"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="28" symbol="hint"/>
+<entry field="true" id="11" symbol="DS"/>
+<entry id="8392219" symbol="face"/>
+<entry field="true" id="42" symbol="rad"/>
+<entry field="true" id="39" symbol="nextimageXY"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="79" symbol="pumpkins"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="72" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="27" symbol="game"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="76" symbol="dog"/>
+<entry id="8391796" symbol="titleItemHeight"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="69" method="true" symbol="inCircle"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="61" symbol="tmp3"/>
+<entry field="true" id="60" symbol="tmp2"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="12" object="true" symbol="DrawableMenuTitle"/>
+<entry id="18" object="true" symbol="TileSliderSettings"/>
+<entry field="true" id="48" symbol="showright"/>
+<entry id="16" object="true" symbol="TileSliderDelegate"/>
+<entry field="true" id="38" symbol="nextdimXY"/>
+<entry id="20" object="true" symbol="TileSliderView"/>
+<entry id="62" module="true" symbol="Layouts"/>
+<entry field="true" id="53" symbol="stats"/>
+<entry field="true" id="8389487" symbol="state"/>
+<entry field="true" id="46" symbol="showXY"/>
+<entry field="true" id="29" symbol="hints"/>
+<entry field="true" id="45" symbol="showWH"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="34" symbol="moves"/>
+<entry field="true" id="24" symbol="cols"/>
+<entry id="15" object="true" symbol="TileSliderApp"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry field="true" id="85" symbol="menu_label_2"/>
+<entry field="true" id="84" symbol="menu_label_1"/>
+<entry field="true" id="78" symbol="flowers"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268438319" name="dc" stackId="1" startPc="268437115"/>
+<entry endPc="268438318" name="drawgrid" stackId="2" startPc="268437127"/>
+<entry endPc="268438318" name="drawblank" stackId="3" startPc="268437127"/>
+<entry endPc="268438318" name="showgood" stackId="4" startPc="268437127"/>
+<entry endPc="268438318" name="w1" stackId="5" startPc="268437127"/>
+<entry endPc="268438318" name="h1" stackId="6" startPc="268437127"/>
+<entry endPc="268438318" name="bm" stackId="7" startPc="268437127"/>
+<entry endPc="268438318" name="tx" stackId="8" startPc="268437127"/>
+<entry endPc="268438318" name="ty" stackId="9" startPc="268437127"/>
+<entry endPc="268438004" name="r" stackId="10" startPc="268437659"/>
+<entry endPc="268437991" name="c" stackId="11" startPc="268437680"/>
+<entry endPc="268438315" name="r" stackId="12" startPc="268438048"/>
+<entry endPc="268438302" name="c" stackId="13" startPc="268438069"/>
+<entry arg="true" endPc="268438542" name="dc" stackId="1" startPc="268438366"/>
+<entry arg="true" endPc="268438609" name="item" stackId="1" startPc="268438607"/>
+<entry arg="true" endPc="268438665" name="index" stackId="1" startPc="268438629"/>
+<entry arg="true" endPc="268438702" name="dc" stackId="1" startPc="268438666"/>
+<entry endPc="268438966" name="r" stackId="1" startPc="268438764"/>
+<entry endPc="268438901" name="c" stackId="2" startPc="268438813"/>
+<entry arg="true" endPc="268439141" name="id" stackId="1" startPc="268439073"/>
+<entry arg="true" endPc="268439141" name="label" stackId="2" startPc="268439073"/>
+<entry arg="true" endPc="268439141" name="moves" stackId="3" startPc="268439073"/>
+<entry arg="true" endPc="268439141" name="games" stackId="4" startPc="268439073"/>
+<entry arg="true" endPc="268439501" name="dc" stackId="1" startPc="268439142"/>
+<entry endPc="268439500" name="w" stackId="2" startPc="268439146"/>
+<entry endPc="268439500" name="h" stackId="3" startPc="268439146"/>
+<entry endPc="268439500" name="bx" stackId="4" startPc="268439146"/>
+<entry endPc="268439500" name="bw" stackId="5" startPc="268439146"/>
+<entry endPc="268439500" name="lx" stackId="6" startPc="268439146"/>
+<entry endPc="268439500" name="gx" stackId="7" startPc="268439146"/>
+<entry endPc="268439500" name="ax" stackId="8" startPc="268439146"/>
+<entry endPc="268439500" name="avg" stackId="9" startPc="268439146"/>
+<entry endPc="268439500" name="g" stackId="10" startPc="268439146"/>
+<entry endPc="268439881" name="themeicon" stackId="1" startPc="268439525"/>
+<entry endPc="268439881" name="hinticon" stackId="2" startPc="268439525"/>
+<entry endPc="268439881" name="statsicon" stackId="3" startPc="268439525"/>
+<entry arg="true" endPc="268440682" name="item" stackId="1" startPc="268440342"/>
+<entry arg="true" endPc="268441335" name="inr" stackId="1" startPc="268440780"/>
+<entry arg="true" endPc="268441335" name="inc" stackId="2" startPc="268440780"/>
+<entry endPc="268441083" name="r" stackId="3" startPc="268440856"/>
+<entry endPc="268440964" name="i" stackId="4" startPc="268440899"/>
+<entry endPc="268441045" name="i" stackId="5" startPc="268440980"/>
+<entry endPc="268441332" name="c" stackId="6" startPc="268441105"/>
+<entry endPc="268441213" name="i" stackId="7" startPc="268441148"/>
+<entry endPc="268441294" name="i" stackId="8" startPc="268441229"/>
+<entry arg="true" endPc="268443451" name="clickEvent" stackId="1" startPc="268441357"/>
+<entry endPc="268443451" name="xy" stackId="2" startPc="268441361"/>
+<entry endPc="268443451" name="state" stackId="3" startPc="268441361"/>
+<entry endPc="268443255" name="r" stackId="4" startPc="268442857"/>
+<entry endPc="268443242" name="c" stackId="5" startPc="268442878"/>
+<entry endPc="268444057" name="found" stackId="1" startPc="268443456"/>
+<entry endPc="268444057" name="r" stackId="2" startPc="268443456"/>
+<entry endPc="268444057" name="c" stackId="3" startPc="268443456"/>
+<entry endPc="268444057" name="nr" stackId="4" startPc="268443456"/>
+<entry endPc="268444057" name="nc" stackId="5" startPc="268443456"/>
+<entry endPc="268443981" name="i" stackId="6" startPc="268443614"/>
+<entry arg="true" endPc="268444185" name="boxxy" stackId="1" startPc="268444059"/>
+<entry arg="true" endPc="268444185" name="boxwh" stackId="2" startPc="268444059"/>
+<entry arg="true" endPc="268444185" name="point" stackId="3" startPc="268444059"/>
+<entry arg="true" endPc="268444259" name="point" stackId="1" startPc="268444186"/>
+<entry arg="true" endPc="268444259" name="circle" stackId="2" startPc="268444186"/>
+<entry arg="true" endPc="268444259" name="rad" stackId="3" startPc="268444186"/>
+<entry endPc="268444259" name="x" stackId="4" startPc="268444190"/>
+<entry endPc="268444259" name="y" stackId="5" startPc="268444190"/>
+<entry endPc="268444259" name="cx" stackId="6" startPc="268444190"/>
+<entry endPc="268444259" name="cy" stackId="7" startPc="268444190"/>
+<entry arg="true" endPc="268444532" name="dc" stackId="1" startPc="268444305"/>
+<entry arg="true" endPc="268454126" name="dc" stackId="1" startPc="268444554"/>
+<entry endPc="268454125" name="font" stackId="2" startPc="268444558"/>
+<entry endPc="268454569" name="menu" stackId="1" startPc="268454139"/>
+<entry endPc="268454569" name="labels" stackId="2" startPc="268454139"/>
+<entry endPc="268454508" name="i" stackId="3" startPc="268454415"/>
+<entry endPc="268456101" name="bm" stackId="1" startPc="268454583"/>
+<entry endPc="268456101" name="bm2" stackId="2" startPc="268454583"/>
+<entry endPc="268456101" name="w1" stackId="3" startPc="268454583"/>
+<entry endPc="268456101" name="h1" stackId="4" startPc="268454583"/>
+<entry endPc="268455668" name="font" stackId="5" startPc="268454776"/>
+<entry endPc="268455668" name="r" stackId="6" startPc="268455019"/>
+<entry endPc="268455655" name="c" stackId="7" startPc="268455040"/>
+<entry endPc="268456101" name="transform" stackId="8" startPc="268455672"/>
+<entry endPc="268456101" name="offX" stackId="9" startPc="268455672"/>
+<entry endPc="268456101" name="offY" stackId="10" startPc="268455672"/>
+<entry endPc="268456101" name="r" stackId="11" startPc="268455808"/>
+<entry endPc="268456088" name="c" stackId="12" startPc="268455829"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bear"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="pumpkins"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stones"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="spider"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="flowers"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="autumn"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="coaster"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="flower"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="dog"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="979" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TileSliderApp" offset="1058" parentId="globals" symbolId="TileSliderApp" type="class"/>
+<dataEntry label="globals/DrawableMenuTitle" offset="1129" parentId="globals" symbolId="DrawableMenuTitle" type="class"/>
+<dataEntry label="globals/TileSliderStatsDelegate" offset="1184" parentId="globals" symbolId="TileSliderStatsDelegate" type="class"/>
+<dataEntry label="globals/CustomIcon" offset="1247" parentId="globals" symbolId="CustomIcon" type="class"/>
+<dataEntry label="globals/CustomItem" offset="1310" parentId="globals" symbolId="CustomItem" type="class"/>
+<dataEntry label="globals/TileSliderSettings" offset="1397" parentId="globals" symbolId="TileSliderSettings" type="class"/>
+<dataEntry label="globals/TileSliderMenuDelegate" offset="1444" parentId="globals" symbolId="TileSliderMenuDelegate" type="class"/>
+<dataEntry label="globals/TileSliderDelegate" offset="1507" parentId="globals" symbolId="TileSliderDelegate" type="class"/>
+<dataEntry label="globals/TileSliderView" offset="1602" parentId="globals" symbolId="TileSliderView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1681" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1792" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1823" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1862" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1893" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1956" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1987" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268436790" name="&lt;init&gt;" parent="Rez" startPc="268436772">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436809" name="&lt;init&gt;" parent="TileSliderApp" startPc="268436791">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436812" name="onStart" parent="TileSliderApp" startPc="268436810">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436889" name="getInitialView" parent="TileSliderApp" startPc="268436813">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436910" name="initialize" parent="TileSliderApp" startPc="268436890">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436913" name="onStop" parent="TileSliderApp" startPc="268436911">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437114" name="newgame" startPc="268436914">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438319" name="drawtiles" startPc="268437115">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438338" name="&lt;init&gt;" parent="DrawableMenuTitle" startPc="268438320">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438365" name="initialize" parent="DrawableMenuTitle" startPc="268438339">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438542" name="draw" parent="DrawableMenuTitle" startPc="268438366">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438561" name="&lt;init&gt;" parent="TileSliderStatsDelegate" startPc="268438543">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438585" name="onBack" parent="TileSliderStatsDelegate" startPc="268438562">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438606" name="initialize" parent="TileSliderStatsDelegate" startPc="268438586">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438609" name="onSelect" parent="TileSliderStatsDelegate" startPc="268438607">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438628" name="&lt;init&gt;" parent="CustomIcon" startPc="268438610">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438665" name="initialize" parent="CustomIcon" startPc="268438629">
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438702" name="draw" parent="CustomIcon" startPc="268438666">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439053" name="inittiles" startPc="268438703">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439072" name="&lt;init&gt;" parent="CustomItem" startPc="268439054">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439141" name="initialize" parent="CustomItem" startPc="268439073">
+<param id="id"/>
+<param id="label"/>
+<param id="moves"/>
+<param id="games"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439501" name="draw" parent="CustomItem" startPc="268439142">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439520" name="&lt;init&gt;" parent="TileSliderSettings" startPc="268439502">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439882" name="initialize" parent="TileSliderSettings" startPc="268439521">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440277" name="savestats" startPc="268439883">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440296" name="&lt;init&gt;" parent="TileSliderMenuDelegate" startPc="268440278">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440320" name="onBack" parent="TileSliderMenuDelegate" startPc="268440297">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440341" name="initialize" parent="TileSliderMenuDelegate" startPc="268440321">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440682" name="onSelect" parent="TileSliderMenuDelegate" startPc="268440342">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440701" name="&lt;init&gt;" parent="TileSliderDelegate" startPc="268440683">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440779" name="onMenu" parent="TileSliderDelegate" startPc="268440702">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441335" name="proctile" parent="TileSliderDelegate" startPc="268440780">
+<param id="inr"/>
+<param id="inc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441356" name="initialize" parent="TileSliderDelegate" startPc="268441336">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443451" name="onTap" parent="TileSliderDelegate" startPc="268441357">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444058" name="shuffle" parent="TileSliderDelegate" startPc="268443452">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444185" name="inbox" parent="TileSliderDelegate" startPc="268444059">
+<param id="boxxy"/>
+<param id="boxwh"/>
+<param id="point"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444259" name="inCircle" parent="TileSliderDelegate" startPc="268444186">
+<param id="point"/>
+<param id="circle"/>
+<param id="rad"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444285" name="getApp" startPc="268444260">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444304" name="&lt;init&gt;" parent="TileSliderView" startPc="268444286">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TileSliderView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444532" name="onLayout" parent="TileSliderView" startPc="268444305">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444553" name="initialize" parent="TileSliderView" startPc="268444533">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TileSliderView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268454126" name="onUpdate" parent="TileSliderView" startPc="268444554">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268454570" name="showstats" startPc="268454127">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456102" name="loadimage" startPc="268454571">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456121" name="&lt;init&gt;" parent="MainMenu" startPc="268456103">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456254" name="initialize" parent="MainMenu" startPc="268456122">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

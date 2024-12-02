@@ -1,0 +1,46 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var flower as Symbol;
+        (:initialized) var flowers as Symbol;
+        (:initialized) var dog as Symbol;
+        (:initialized) var spider as Symbol;
+        (:initialized) var stones as Symbol;
+        (:initialized) var bear as Symbol;
+        (:initialized) var pumpkins as Symbol;
+        (:initialized) var autumn as Symbol;
+        (:initialized) var coaster as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+    } // Layouts
+
+    module Menus {
+        class MainMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
+            }
+        }
+    } // Menus
+
+    module Strings {
+        (:initialized) var menu_label_1 as Symbol;
+        (:initialized) var menu_label_2 as Symbol;
+        (:initialized) var prompt as Symbol;
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez
